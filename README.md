@@ -5,10 +5,13 @@
 ![Flutter](https://img.shields.io/badge/Flutter-Dart-blue?logo=flutter)
 ![Metro Royale](https://img.shields.io/badge/PUBG_Mobile-Metro_Royale-blue?logo=pubg)
 ![Platform](https://img.shields.io/badge/platform-Android%20%7C%20iOS%20%7C%20Windows%20%7C%20Linux%20%7C%20macOS-blue?logo=androidstudio&logoColor=white)
-
-An application that helps players understand PUBGM Metro Royale through interactive maps and detailed spawn location insights.
+![Github Release Downloads](https://img.shields.io/badge/PUBG_Mobile-Metro_Royale-blue?logo=pubg)
+<img src="https://img.shields.io/github/downloads/nithish-gajula/MetroRoyaleGuide/total?color=yellow&logo=github" alt="Downloads">
+<img src="https://img.shields.io/github/stars/nithish-gajula/MetroRoyaleGuide" alt="GitHub stars" />
 
 </div>
+
+An application that helps players understand PUBGM Metro Royale through interactive maps and detailed spawn location insights.
 
 ## 🚀 Core Features
 - **🗺️ Metro Royale Maps**: Arctic Base, Misty Port, Old Blockade Zone, Frontline Confrontation
@@ -84,4 +87,6 @@ Built with ❤️ for Metro Royale fans
 [![Instagram](https://img.shields.io/badge/Instagram-E4405F?logo=instagram&logoColor=white)](https://www.instagram.com/nithish_gajula)
 [![X](https://img.shields.io/badge/X-000000?logo=x&logoColor=white)](https://x.com/gajula_nithish)
 
+
 </div>
+  
