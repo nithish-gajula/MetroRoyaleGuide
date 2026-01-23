@@ -4,7 +4,6 @@
 
 ![Flutter Dart](https://img.shields.io/badge/Flutter-Dart-blue?logo=flutter)
 ![Metro Royale Guide](https://img.shields.io/badge/PUBG_Mobile-Metro_Royale-blue?logo=pubg)
-[![Google Play](https://img.shields.io/badge/Google_Play-Download-34A853?logo=googleplay&logoColor=white)](https://play.google.com/store/apps/details?id=com.nithishgajula.guide_for_pubg_metro_royale)
 ![Platform](https://img.shields.io/badge/platform-Android%20%7C%20iOS%20%7C%20Windows%20%7C%20Linux%20%7C%20macOS-blue?logo=androidstudio&logoColor=white)
 <img src="https://img.shields.io/github/downloads/nithish-gajula/MetroRoyaleGuide/total?color=yellow&logo=github" alt="GitHub Release Downloads">
 <img src="https://img.shields.io/github/stars/nithish-gajula/MetroRoyaleGuide" alt="GitHub Repo Stars" />
@@ -31,32 +30,32 @@ An application that helps players understand PUBGM Metro Royale through interact
 
 ## 📦 Installation
 
-📱 **Android**: Download from the Google Play Store <a href="https://play.google.com/store/apps/details?id=com.nithishgajula.guide_for_pubg_metro_royale">
-    <img src="Misc/get_it_on_google_play.svg" alt="Get it on Google Play" height="30"></a>
+📱 **Android**: Download from the Google Play Store &nbsp;&nbsp; [![Google Play](https://img.shields.io/badge/Google_Play-Download-34A853?logo=googleplay&logoColor=white)](https://play.google.com/store/apps/details?id=com.nithishgajula.guide_for_pubg_metro_royale)
 
 #### 🐧 Linux
 
 Linux builds are available in two formats. Choose the one that suits you best.
-Release version: <a href="https://github.com/nithish-gajula/MetroRoyaleGuide/releases/tag/v2.6.0">v2.6.0</a>
+Release version: <a href="https://github.com/nithish-gajula/MetroRoyaleGuide/releases/tag/v2.7.0">v2.7.0</a>
 
 
 ###### Linux AppImage Setup
 
-1. Download `Metro_Royale_Guide-Linux-x86_64.AppImage` from the <a href="https://github.com/nithish-gajula/MetroRoyaleGuide/releases/tag/v2.6.0">releases</a>
+1. Download `Metro_Royale_Guide-Linux-x86_64.AppImage` from the <a href="https://github.com/nithish-gajula/MetroRoyaleGuide/releases/tag/v2.7.0">releases</a>
 2. Make the AppImage executable: `chmod +x Metro_Royale_Guide-Linux-x86_64.AppImage`
 3. Run the app: `./Metro_Royale_Guide-Linux-x86_64.AppImage`
 
 ###### Linux tar.gz Archive Setup
 
-1. Download `MetroRoyaleGuide-Linux-x64.tar.gz` from the <a href="https://github.com/nithish-gajula/MetroRoyaleGuide/releases/tag/v2.6.0">releases</a>
-2. Untar the file `tar -xvzf MetroRoyaleGuide-Linux-x64.tar.gz`
-3. Make the binary executable (if not) `chmod +x bundle/guide_for_pubg_metro_royale`
-4. Run `./bundle/guide_for_pubg_metro_royale`
+1. Download `MetroRoyaleGuide-Linux.tar.gz` from the <a href="https://github.com/nithish-gajula/MetroRoyaleGuide/releases/tag/v2.7.0">releases</a>
+2. Untar the file `tar -xzvf MetroRoyaleGuide-Linux.tar.gz`
+3. Go to cd bundle directory `cd MetroRoyaleGuide/bundle/`
+3. Make the binary executable (if not) `chmod +x guide_for_pubg_metro_royale`
+4. Run `./guide_for_pubg_metro_royale`
 
 #### 🖥️ Windows
 
 Windows builds are coming soon 🚧
-They will be published in the <a href="https://github.com/nithish-gajula/MetroRoyaleGuide/releases/tag/v2.6.0">releases</a> section once available.
+They will be published in the <a href="https://github.com/nithish-gajula/MetroRoyaleGuide/releases/tag/v2.7.0">releases</a> section once available.
 
 ## 🚉 Metro Royale Guide – Static Assets
 
@@ -64,7 +63,7 @@ This repository contains **static assets** used by the <a href="https://github.c
 
 > [!IMPORTANT]
 > These assets are intended for **informational and guide purposes only**.  
-> This is a **fan-made project** and is not affiliated with or endorsed by the official game developers.
+> This is an **unofficial, fan-made project** and is not affiliated with or endorsed by the official game developers.
 
 
 ### ⚜️ Spawn Icons
@@ -95,31 +94,67 @@ The Metro Royale mode includes **6 playable maps**, each supporting one or more 
 
 ### 🧭 Available Maps & Modes
 
-1. **Frontline Confrontation**  
-   - Basic
 
-2. **Old Blockade Zone**  
-   - Basic  
-   - Advanced  
-   - Radiation
+<table>
+  <thead>
+    <tr>
+      <th>#</th>
+      <th>Map Name</th>
+      <th colspan="3", align="left">Available Modes (🟢Basic, 🟣Advanced, ☢️Radiation)</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr align="center">
+      <td>1</td>
+      <td align="left"><strong>Frontline Confrontation</strong></td>
+      <td>Basic</td>
+      <td>-</td>
+      <td>-</td>
+    </tr>
+    <tr align="center">
+      <td>2</td>
+      <td align="left"><strong>Old Blockade Zone</strong></td>
+      <td>Basic</td>
+      <td>Advanced</td>
+      <td>Radiation</td>
+    </tr>
+    <tr align="center">
+      <td>3</td>
+      <td align="left"><strong>Misty Port</strong></td>
+      <td>Basic</td>
+      <td>Advanced</td>
+      <td>Radiation</td>
+    </tr>
+    <tr align="center">
+      <td>4</td>
+      <td align="left"><strong>Arctic Base</strong></td>
+      <td>Basic</td>
+      <td>Advanced</td>
+      <td>Radiation</td>
+    </tr>
+    <tr align="center">
+      <td>5</td>
+      <td align="left"><strong>Zombie Uprising 2.0</strong></td>
+      <td>-</td>
+      <td>Advanced</td>
+      <td>Radiation</td>
+    </tr>
+    <tr align="center">
+      <td>6</td>
+      <td align="left"><strong>Survival Drop</strong></td>
+      <td>-</td>
+      <td>Advanced</td>
+      <td>Radiation</td>
+    </tr>
+  </tbody>
+</table>
 
-3. **Misty Port**  
-   - Basic  
-   - Advanced  
-   - Radiation
 
-4. **Arctic Base**  
-   - Basic  
-   - Advanced  
-   - Radiation
+## 📌 Notes
 
-5. **Zombie Uprising 2.0**  
-   - Advanced
-   - Radiation
-
-6. **Survival Drop**  
-   - Advanced
-   - Radiation
+- Assets are optimized for **performance and clarity** on mobile devices  
+- Map images are designed for **interactive overlays and zooming**
+- File sizes are kept minimal to reduce memory usage
 
 
 ## 📐 Asset Specifications
@@ -132,12 +167,6 @@ The Metro Royale mode includes **6 playable maps**, each supporting one or more 
 | **Large Maps**  | 1024 × 1024 px  | JPG / JPEG   | < 2 MB    |
 
 
-
-## 📌 Notes
-
-- Assets are optimized for **performance and clarity** on mobile devices  
-- Map images are designed for **interactive overlays and zooming**
-- File sizes are kept minimal to reduce memory usage
 
 
 ## 📝 License
