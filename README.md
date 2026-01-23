@@ -32,7 +32,7 @@ An application that helps players understand PUBGM Metro Royale through interact
 ## 📦 Installation
 
 📱 **Android**: Download from the Google Play Store <a href="https://play.google.com/store/apps/details?id=com.nithishgajula.guide_for_pubg_metro_royale">
-    <img src="Assets/Misc/get_it_on_google_play.svg" alt="Get it on Google Play" height="30"></a>
+    <img src="Misc/get_it_on_google_play.svg" alt="Get it on Google Play" height="30"></a>
 
 #### 🐧 Linux
 
@@ -76,46 +76,46 @@ These icons are used across **Filter Chips** and **Spawn Markers** in the app UI
 
 1. **Supply Crates**  
    - Normal  
-     <img src="Assets/SpawnIcons/supply_crate.png" width="48" alt="Supply Crate">  
+     <img src="SpawnIcons/supply_crate.png" width="48" alt="Supply Crate">  
    - Rich  
-     <img src="Assets/SpawnIcons/supply_crate_special.png" width="48" alt="Supply Crate Special">
+     <img src="SpawnIcons/supply_crate_special.png" width="48" alt="Supply Crate Special">
 
 2. **Weapon Crates**  
-   <img src="Assets/SpawnIcons/weapon_crate.png" width="48" alt="Weapon Crate">
+   <img src="SpawnIcons/weapon_crate.png" width="48" alt="Weapon Crate">
 
 3. **File Cabinets**  
-   <img src="Assets/SpawnIcons/file_cabinet.png" width="48" alt="File Cabinet">
+   <img src="SpawnIcons/file_cabinet.png" width="48" alt="File Cabinet">
 
 
 4. **Special Crates**  
-   <img src="Assets/SpawnIcons/special_crate.png" width="48" alt="Special Crate">
+   <img src="SpawnIcons/special_crate.png" width="48" alt="Special Crate">
 
 5. **Password Doors**  
-   <img src="Assets/SpawnIcons/password_door.png" width="48" alt="Password Door">
+   <img src="SpawnIcons/password_door.png" width="48" alt="Password Door">
 
 6. **Zombie Labs**  
-   <img src="Assets/SpawnIcons/zombie_lab.png" width="48" alt="Zombie Lab">
+   <img src="SpawnIcons/zombie_lab.png" width="48" alt="Zombie Lab">
 
 7. **Shops**  
-   <img src="Assets/SpawnIcons/shop.png" width="48" alt="Shop">
+   <img src="SpawnIcons/shop.png" width="48" alt="Shop">
 
 8. **Laptops**  
-   <img src="Assets/SpawnIcons/laptop.png" width="48" alt="Laptop">
+   <img src="SpawnIcons/laptop.png" width="48" alt="Laptop">
 
 9. **Bosses**  
-   <img src="Assets/SpawnIcons/boss.png" width="48" alt="Boss">
+   <img src="SpawnIcons/boss.png" width="48" alt="Boss">
 
 10. **Solo Spawns**  
     - Normal  
-      <img src="Assets/SpawnIcons/solo.png" width="48" alt="Solo Spawn">  
+      <img src="SpawnIcons/solo.png" width="48" alt="Solo Spawn">  
     - Rich  
-      <img src="Assets/SpawnIcons/solo_special.png" width="48" alt="Solo Spawn Rare">
+      <img src="SpawnIcons/solo_special.png" width="48" alt="Solo Spawn Rare">
 
 11. **Squad Spawns**  
     - Normal  
-      <img src="Assets/SpawnIcons/squad.png" width="48" alt="Squad Spawn">  
+      <img src="SpawnIcons/squad.png" width="48" alt="Squad Spawn">  
     - Rich  
-      <img src="Assets/SpawnIcons/squad_special.png" width="48" alt="Squad Spawn Rare">
+      <img src="SpawnIcons/squad_special.png" width="48" alt="Squad Spawn Rare">
 
 
 ### 📐 Spawn Icon Specifications
@@ -188,7 +188,7 @@ Reverse engineering, decompiling, or disassembling the software is prohibited to
 
 <p align="center">
   <a href="https://play.google.com/store/apps/details?id=com.nithishgajula.guide_for_pubg_metro_royale">
-    <img src="Assets/Misc/get_it_on_google_play.svg" alt="Get it on Google Play" height="60">
+    <img src="Misc/get_it_on_google_play.svg" alt="Get it on Google Play" height="60">
   </a>
 </p>
 
