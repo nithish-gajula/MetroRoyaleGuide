@@ -74,55 +74,19 @@ These icons are used across **Filter Chips** and **Spawn Markers** in the app UI
 
 ### 💢 Spawn Types
 
-1. **Supply Crates**  
-   - Normal  
-     <img src="SpawnIcons/supply_crate.png" width="48" alt="Supply Crate">  
-   - Rich  
-     <img src="SpawnIcons/supply_crate_special.png" width="48" alt="Supply Crate Special">
-
-2. **Weapon Crates**  
-   <img src="SpawnIcons/weapon_crate.png" width="48" alt="Weapon Crate">
-
-3. **File Cabinets**  
-   <img src="SpawnIcons/file_cabinet.png" width="48" alt="File Cabinet">
-
-
-4. **Special Crates**  
-   <img src="SpawnIcons/special_crate.png" width="48" alt="Special Crate">
-
-5. **Password Doors**  
-   <img src="SpawnIcons/password_door.png" width="48" alt="Password Door">
-
-6. **Zombie Labs**  
-   <img src="SpawnIcons/zombie_lab.png" width="48" alt="Zombie Lab">
-
-7. **Shops**  
-   <img src="SpawnIcons/shop.png" width="48" alt="Shop">
-
-8. **Laptops**  
-   <img src="SpawnIcons/laptop.png" width="48" alt="Laptop">
-
-9. **Bosses**  
-   <img src="SpawnIcons/boss.png" width="48" alt="Boss">
-
-10. **Solo Spawns**  
-    - Normal  
-      <img src="SpawnIcons/solo.png" width="48" alt="Solo Spawn">  
-    - Rich  
-      <img src="SpawnIcons/solo_special.png" width="48" alt="Solo Spawn Rare">
-
-11. **Squad Spawns**  
-    - Normal  
-      <img src="SpawnIcons/squad.png" width="48" alt="Squad Spawn">  
-    - Rich  
-      <img src="SpawnIcons/squad_special.png" width="48" alt="Squad Spawn Rare">
-
-
-### 📐 Spawn Icon Specifications
-
-- **Dimensions:** 128 × 128 px  
-- **Format:** PNG  
-- **Average Size:** ~50 KB  
+| Spawn Type         | Variants        | Icon |
+| :------------------| :---------------| :---: |
+| **Supply Crates**  | Standard & Rich  | <img src="SpawnIcons/supply_crate.png" width="40"> <img src="SpawnIcons/supply_crate_special.png" width="40"> |
+| **Weapon Crates**  | Standard        | <img src="SpawnIcons/weapon_crate.png" width="40"> |
+| **File Cabinets**  | Standard        | <img src="SpawnIcons/file_cabinet.png" width="40"> |
+| **Special Crates** | Standard        | <img src="SpawnIcons/special_crate.png" width="40"> |
+| **Password Doors** | Standard        | <img src="SpawnIcons/password_door.png" width="40"> |
+| **Zombie Labs**    | Standard        | <img src="SpawnIcons/zombie_lab.png" width="40"> |
+| **Shops**          | Standard        | <img src="SpawnIcons/shop.png" width="40"> |
+| **Laptops**        | Standard        | <img src="SpawnIcons/laptop.png" width="40"> |
+| **Bosses**         | Standard        | <img src="SpawnIcons/boss.png" width="40"> |
+| **Solo Spawns**    | Standard & Rare  | <img src="SpawnIcons/solo.png" width="40"> <img src="SpawnIcons/solo_special.png" width="40"> |
+| **Squad Spawns**   | Standard & Rare  | <img src="SpawnIcons/squad.png" width="40"> <img src="SpawnIcons/squad_special.png" width="40"> |
 
 
 ## 🗺️ Maps
@@ -151,22 +115,22 @@ The Metro Royale mode includes **6 playable maps**, each supporting one or more 
 
 5. **Zombie Uprising 2.0**  
    - Advanced
+   - Radiation
 
 6. **Survival Drop**  
    - Advanced
+   - Radiation
 
 
-## 📏 Map Asset Specifications
+## 📐 Asset Specifications
 
-#### Mini Maps
-- **Dimensions:** 512 × 512 px *(currently unclassified)*  
-- **Format:** JPG / JPEG  
-- **File Size:** < 1 MB  
 
-#### Large Maps
-- **Dimensions:** 1024 × 1024 px  
-- **Format:** JPG / JPEG  
-- **File Size:** < 2 MB  
+| Map Type        | Dimensions      | Format       | File Size |
+| :---------------| :---------------| :------------| :---------|
+| **Spawn Icons** | 128 × 128 px    | PNG          | ~ 50 Kb   |
+| **Mini Maps**   | 512 × 512 px    | JPG / JPEG   | < 1 MB    |
+| **Large Maps**  | 1024 × 1024 px  | JPG / JPEG   | < 2 MB    |
+
 
 
 ## 📌 Notes
