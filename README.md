@@ -4,6 +4,7 @@
 
 ![Flutter Dart](https://img.shields.io/badge/Flutter-Dart-blue?logo=flutter)
 ![Metro Royale Guide](https://img.shields.io/badge/PUBG_Mobile-Metro_Royale-blue?logo=pubg)
+[![Google Play](https://img.shields.io/badge/Google_Play-Download-34A853?logo=googleplay&logoColor=white)](https://play.google.com/store/apps/details?id=com.nithishgajula.guide_for_pubg_metro_royale)
 ![Platform](https://img.shields.io/badge/platform-Android%20%7C%20iOS%20%7C%20Windows%20%7C%20Linux%20%7C%20macOS-blue?logo=androidstudio&logoColor=white)
 <img src="https://img.shields.io/github/downloads/nithish-gajula/MetroRoyaleGuide/total?color=yellow&logo=github" alt="GitHub Release Downloads">
 <img src="https://img.shields.io/github/stars/nithish-gajula/MetroRoyaleGuide" alt="GitHub Repo Stars" />
@@ -31,7 +32,7 @@ An application that helps players understand PUBGM Metro Royale through interact
 ## 📦 Installation
 
 📱 **Android**: Download from the Google Play Store <a href="https://play.google.com/store/apps/details?id=com.nithishgajula.guide_for_pubg_metro_royale">
-    <img src="Assets/Misc/get_it_on_google_play.svg" alt="Get it on Google Play" height="40"></a>
+    <img src="Assets/Misc/get_it_on_google_play.svg" alt="Get it on Google Play" height="30"></a>
 
 #### 🐧 Linux
 
@@ -57,6 +58,124 @@ Release version: <a href="https://github.com/nithish-gajula/MetroRoyaleGuide/rel
 Windows builds are coming soon 🚧
 They will be published in the <a href="https://github.com/nithish-gajula/MetroRoyaleGuide/releases/tag/v2.6.0">releases</a> section once available.
 
+## 🚉 Metro Royale Guide – Static Assets
+
+This repository contains **static assets** used by the <a href="https://github.com/nithish-gajula/MetroRoyaleGuide">metro royale guide</a> application, including **spawn icons** and **map images**.
+
+> [!IMPORTANT]
+> These assets are intended for **informational and guide purposes only**.  
+> This is a **fan-made project** and is not affiliated with or endorsed by the official game developers.
+
+
+### ⚜️ Spawn Icons
+
+The app supports multiple **spawn types**, each represented by a dedicated icon.  
+These icons are used across **Filter Chips** and **Spawn Markers** in the app UI.
+
+### 💢 Spawn Types
+
+1. **Supply Crates**  
+   - Normal  
+     <img src="Assets/SpawnIcons/supply_crate.png" width="48" alt="Supply Crate">  
+   - Rich  
+     <img src="Assets/SpawnIcons/supply_crate_special.png" width="48" alt="Supply Crate Special">
+
+2. **Weapon Crates**  
+   <img src="Assets/SpawnIcons/weapon_crate.png" width="48" alt="Weapon Crate">
+
+3. **File Cabinets**  
+   <img src="Assets/SpawnIcons/file_cabinet.png" width="48" alt="File Cabinet">
+
+
+4. **Special Crates**  
+   <img src="Assets/SpawnIcons/special_crate.png" width="48" alt="Special Crate">
+
+5. **Password Doors**  
+   <img src="Assets/SpawnIcons/password_door.png" width="48" alt="Password Door">
+
+6. **Zombie Labs**  
+   <img src="Assets/SpawnIcons/zombie_lab.png" width="48" alt="Zombie Lab">
+
+7. **Shops**  
+   <img src="Assets/SpawnIcons/shop.png" width="48" alt="Shop">
+
+8. **Laptops**  
+   <img src="Assets/SpawnIcons/laptop.png" width="48" alt="Laptop">
+
+9. **Bosses**  
+   <img src="Assets/SpawnIcons/boss.png" width="48" alt="Boss">
+
+10. **Solo Spawns**  
+    - Normal  
+      <img src="Assets/SpawnIcons/solo.png" width="48" alt="Solo Spawn">  
+    - Rich  
+      <img src="Assets/SpawnIcons/solo_special.png" width="48" alt="Solo Spawn Rare">
+
+11. **Squad Spawns**  
+    - Normal  
+      <img src="Assets/SpawnIcons/squad.png" width="48" alt="Squad Spawn">  
+    - Rich  
+      <img src="Assets/SpawnIcons/squad_special.png" width="48" alt="Squad Spawn Rare">
+
+
+### 📐 Spawn Icon Specifications
+
+- **Dimensions:** 128 × 128 px  
+- **Format:** PNG  
+- **Average Size:** ~50 KB  
+
+
+## 🗺️ Maps
+
+The Metro Royale mode includes **6 playable maps**, each supporting one or more game modes.
+
+### 🧭 Available Maps & Modes
+
+1. **Frontline Confrontation**  
+   - Basic
+
+2. **Old Blockade Zone**  
+   - Basic  
+   - Advanced  
+   - Radiation
+
+3. **Misty Port**  
+   - Basic  
+   - Advanced  
+   - Radiation
+
+4. **Arctic Base**  
+   - Basic  
+   - Advanced  
+   - Radiation
+
+5. **Zombie Uprising 2.0**  
+   - Advanced
+
+6. **Survival Drop**  
+   - Advanced
+
+
+## 📏 Map Asset Specifications
+
+#### Mini Maps
+- **Dimensions:** 512 × 512 px *(currently unclassified)*  
+- **Format:** JPG / JPEG  
+- **File Size:** < 1 MB  
+
+#### Large Maps
+- **Dimensions:** 1024 × 1024 px  
+- **Format:** JPG / JPEG  
+- **File Size:** < 2 MB  
+
+
+## 📌 Notes
+
+- Assets are optimized for **performance and clarity** on mobile devices  
+- Map images are designed for **interactive overlays and zooming**
+- File sizes are kept minimal to reduce memory usage
+
+
 ## 📝 License
 
 Copyright © 2026 **Nithish Gajula**. All rights reserved.  
@@ -74,8 +193,8 @@ Reverse engineering, decompiling, or disassembling the software is prohibited to
 </p>
 
 <div align="center">
-Built with ❤️ for Metro Royale fans
 
+Built with ❤️ by [Nithish Gajula](https://github.com/nithish-gajula) — 🎮 for **Metro Royale** fans.
 
 **⭐ Star the repository if you find it useful!**
 
@@ -87,6 +206,4 @@ Built with ❤️ for Metro Royale fans
 [![Instagram](https://img.shields.io/badge/Instagram-E4405F?logo=instagram&logoColor=white)](https://www.instagram.com/nithish_gajula)
 
 
-
 </div>
-  
