@@ -1,0 +1,36 @@
+{
+  "mapId": "misty_port_radiation",
+  "name": "Misty Port Radiation",
+  "image": "Maps/LargeMaps/misty_port_radiation.jpg",
+  "origWidth": 1000,
+  "origHeight": 1000,
+  "filters": [
+    {
+      "type": "supplyCrate",
+      "label": "Supply Crates",
+      "color": "#9DACB7",
+      "icon": "SpawnIcons/supply_crate.png"
+    }
+  ],
+  "icons": {
+    "supplyCrate": {
+      "icon": "SpawnIcons/supply_crate.png",
+      "size": 10,
+      "minSize": 8,
+      "maxSize": 25,
+      "defaultSize": 10
+    }
+  },
+  "markers": [
+    {
+      "id": "supply_1",
+      "name": "supply #1",
+      "description": "First supply crate at the Gate entrance, easy to grab but exposed to anyone watching the approach.",
+      "type": "supplyCrate",
+      "x": 530,
+      "y": 500,
+      "img1": null,
+      "img2": null
+    }
+  ]
+}

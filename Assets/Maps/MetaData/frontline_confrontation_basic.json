@@ -1,0 +1,471 @@
+{
+  "mapId": "frontline_confrontation_basic",
+  "name": "Frontline Confrontation",
+  "image": "Maps/LargeMaps/frontline_confrontation_basic.jpg",
+  "origWidth": 2000,
+  "origHeight": 2000,
+  "filters": [
+    {
+      "type": "squadSpawn",
+      "label": "Squad",
+      "color": "#9C27B0",
+      "icon": "SpawnIcons/squad.png"
+    },
+    {
+      "type": "soloSpawn",
+      "label": "Solo",
+      "color": "#FF9800",
+      "icon": "SpawnIcons/solo.png"
+    },
+    {
+      "type": "specialCrate",
+      "label": "Vine Crates",
+      "color": "#03A9F4",
+      "icon": "SpawnIcons/special_crate.png"
+    },
+    {
+      "type": "passwordDoor",
+      "label": "Password Doors",
+      "color": "#F44336",
+      "icon": "SpawnIcons/password_door.png"
+    },
+    {
+      "type": "boss",
+      "label": "Boss",
+      "color": "#9B283C",
+      "icon": "SpawnIcons/boss.png"
+    }
+  ],
+  "icons": {
+    "squadSpawn": {
+      "icon": "SpawnIcons/squad.png",
+      "size": 24,
+      "minSize": 15,
+      "maxSize": 30,
+      "defaultSize": 24
+    },
+    "soloSpawn": {
+      "icon": "SpawnIcons/solo.png",
+      "size": 24,
+      "minSize": 15,
+      "maxSize": 30,
+      "defaultSize": 24
+    },
+    "specialCrate": {
+      "icon": "SpawnIcons/special_crate.png",
+      "size": 24,
+      "minSize": 15,
+      "maxSize": 30,
+      "defaultSize": 24
+    },
+    "passwordDoor": {
+      "icon": "SpawnIcons/password_door.png",
+      "size": 20,
+      "minSize": 15,
+      "maxSize": 30,
+      "defaultSize": 20
+    },
+    "boss": {
+      "icon": "SpawnIcons/boss.png",
+      "size": 10,
+      "minSize": 8,
+      "maxSize": 20,
+      "defaultSize": 10
+    }
+  },
+  "markers": [
+    {
+      "id": "squad_1",
+      "name": "Squad Spawn #1",
+      "description": "Head towards the Airstrip to catch the server decryption. Be ready to face the squad from spawn #2.",
+      "type": "squadSpawn",
+      "x": 1040,
+      "y": 150,
+      "img1": null,
+      "img2": null
+    },
+    {
+      "id": "squad_2",
+      "name": "Squad Spawn #2",
+      "description": "Head towards the Airstrip to catch the server decryption. Be ready to face the squad from spawn #1.",
+      "type": "squadSpawn",
+      "x": 1710,
+      "y": 500,
+      "img1": null,
+      "img2": null
+    },
+    {
+      "id": "squad_3",
+      "name": "Squad Spawn #3",
+      "description": "Heading towards the Battle Line puts you in the middle of an intense crossfire, as two rival squads are already battling for control.",
+      "type": "squadSpawn",
+      "x": 1640,
+      "y": 1030,
+      "img1": null,
+      "img2": null
+    },
+    {
+      "id": "squad_4",
+      "name": "Squad Spawn #4",
+      "description": "Heading towards the Yasnaya PD puts you in facing a squad with intense fight. You can get the good loot from finishing the boss in tunnel.",
+      "type": "squadSpawn",
+      "x": 1330,
+      "y": 1790,
+      "img1": null,
+      "img2": null
+    },
+    {
+      "id": "squad_5",
+      "name": "Squad Spawn #5",
+      "description": "You can go the Tribe area to access the white password door for the good loot. And be ready to face the bunch of guards",
+      "type": "squadSpawn",
+      "x": 525,
+      "y": 1550,
+      "img1": null,
+      "img2": null
+    },
+    {
+      "id": "squad_6",
+      "name": "Squad Spawn #6",
+      "description": "Head towards the FortFury to catch the boss and get the good loot. Be ready to face the squad from spawn #1.",
+      "type": "squadSpawn",
+      "x": 360,
+      "y": 1050,
+      "img1": null,
+      "img2": null
+    },
+
+    {
+      "id": "solo_1",
+      "name": "Solo Spawn #1",
+      "description": "Safer solo spawn, moderate loot.",
+      "type": "soloSpawn",
+      "x": 500,
+      "y": 350,
+      "img1": null,
+      "img2": null
+    },
+    {
+      "id": "solo_2",
+      "name": "Solo Spawn #2",
+      "description": "Safer solo spawn, moderate loot.",
+      "type": "soloSpawn",
+      "x": 580,
+      "y": 580,
+      "img1": null,
+      "img2": null
+    },
+    {
+      "id": "solo_3",
+      "name": "Solo Spawn #3",
+      "description": "Safer solo spawn, moderate loot.",
+      "type": "soloSpawn",
+      "x": 960,
+      "y": 525,
+      "img1": null,
+      "img2": null
+    },
+    {
+      "id": "solo_4",
+      "name": "Solo Spawn #4",
+      "description": "Safer solo spawn, moderate loot.",
+      "type": "soloSpawn",
+      "x": 820,
+      "y": 210,
+      "img1": null,
+      "img2": null
+    },
+    {
+      "id": "solo_5",
+      "name": "Solo Spawn #5",
+      "description": "Safer solo spawn, moderate loot.",
+      "type": "soloSpawn",
+      "x": 1040,
+      "y": 130,
+      "img1": null,
+      "img2": null
+    },
+    {
+      "id": "solo_6",
+      "name": "Solo Spawn #6",
+      "description": "Safer solo spawn, moderate loot.",
+      "type": "soloSpawn",
+      "x": 1345,
+      "y": 230,
+      "img1": null,
+      "img2": null
+    },
+    {
+      "id": "solo_7",
+      "name": "Solo Spawn #7",
+      "description": "Safer solo spawn, moderate loot.",
+      "type": "soloSpawn",
+      "x": 1340,
+      "y": 600,
+      "img1": null,
+      "img2": null
+    },
+    {
+      "id": "solo_8",
+      "name": "Solo Spawn #8",
+      "description": "Safer solo spawn, moderate loot.",
+      "type": "soloSpawn",
+      "x": 1550,
+      "y": 330,
+      "img1": null,
+      "img2": null
+    },
+    {
+      "id": "solo_9",
+      "name": "Solo Spawn #9",
+      "description": "Safer solo spawn, moderate loot.",
+      "type": "soloSpawn",
+      "x": 1710,
+      "y": 520,
+      "img1": null,
+      "img2": null
+    },
+    {
+      "id": "solo_10",
+      "name": "Solo Spawn #10",
+      "description": "Safer solo spawn, moderate loot.",
+      "type": "soloSpawn",
+      "x": 1760,
+      "y": 670,
+      "img1": null,
+      "img2": null
+    },
+    {
+      "id": "solo_11",
+      "name": "Solo Spawn #11",
+      "description": "Safer solo spawn, moderate loot.",
+      "type": "soloSpawn",
+      "x": 1610,
+      "y": 720,
+      "img1": null,
+      "img2": null
+    },
+    {
+      "id": "solo_12",
+      "name": "Solo Spawn #12",
+      "description": "Safer solo spawn, moderate loot.",
+      "type": "soloSpawn",
+      "x": 1690,
+      "y": 900,
+      "img1": null,
+      "img2": null
+    },
+    {
+      "id": "solo_13",
+      "name": "Solo Spawn #13",
+      "description": "Safer solo spawn, moderate loot.",
+      "type": "soloSpawn",
+      "x": 1645,
+      "y": 1045,
+      "img1": null,
+      "img2": null
+    },
+    {
+      "id": "solo_14",
+      "name": "Solo Spawn #14",
+      "description": "Safer solo spawn, moderate loot.",
+      "type": "soloSpawn",
+      "x": 1490,
+      "y": 1520,
+      "img1": null,
+      "img2": null
+    },
+    {
+      "id": "solo_15",
+      "name": "Solo Spawn #15",
+      "description": "Safer solo spawn, moderate loot.",
+      "type": "soloSpawn",
+      "x": 1610,
+      "y": 1700,
+      "img1": null,
+      "img2": null
+    },
+    {
+      "id": "solo_16",
+      "name": "Solo Spawn #16",
+      "description": "Safer solo spawn, moderate loot.",
+      "type": "soloSpawn",
+      "x": 1330,
+      "y": 1790,
+      "img1": null,
+      "img2": null
+    },
+    {
+      "id": "solo_17",
+      "name": "Solo Spawn #17",
+      "description": "Safer solo spawn, moderate loot.",
+      "type": "soloSpawn",
+      "x": 1180,
+      "y": 1820,
+      "img1": null,
+      "img2": null
+    },
+    {
+      "id": "solo_18",
+      "name": "Solo Spawn #18",
+      "description": "Safer solo spawn, moderate loot.",
+      "type": "soloSpawn",
+      "x": 1040,
+      "y": 1820,
+      "img1": null,
+      "img2": null
+    },
+    {
+      "id": "solo_19",
+      "name": "Solo Spawn #19",
+      "description": "Safer solo spawn, moderate loot.",
+      "type": "soloSpawn",
+      "x": 850,
+      "y": 1750,
+      "img1": null,
+      "img2": null
+    },
+    {
+      "id": "solo_20",
+      "name": "Solo Spawn #20",
+      "description": "Safer solo spawn, moderate loot.",
+      "type": "soloSpawn",
+      "x": 845,
+      "y": 1500,
+      "img1": null,
+      "img2": null
+    },
+    {
+      "id": "solo_21",
+      "name": "Solo Spawn #21",
+      "description": "Safer solo spawn, moderate loot.",
+      "type": "soloSpawn",
+      "x": 680,
+      "y": 1670,
+      "img1": null,
+      "img2": null
+    },
+    {
+      "id": "solo_22",
+      "name": "Solo Spawn #22",
+      "description": "Safer solo spawn, moderate loot.",
+      "type": "soloSpawn",
+      "x": 515,
+      "y": 1555,
+      "img1": null,
+      "img2": null
+    },
+    {
+      "id": "solo_23",
+      "name": "Solo Spawn #23",
+      "description": "Safer solo spawn, moderate loot.",
+      "type": "soloSpawn",
+      "x": 335,
+      "y": 1050,
+      "img1": null,
+      "img2": null
+    },
+
+
+    {
+      "id": "special_1",
+      "name": "Vine Crate #1",
+      "description": "Located outside the building",
+      "type": "specialCrate",
+      "x": 650,
+      "y": 300,
+      "img1": "AreaViews/SpecialCrates/1_special_crate_outside.jpg",
+      "img2": "AreaViews/SpecialCrates/1_special_crate.jpg"
+    },
+    {
+      "id": "special_2",
+      "name": "Vine Crate #2",
+      "description": "Located inside a room in a building\nGuarded by a bot",
+      "type": "specialCrate",
+      "x": 1100,
+      "y": 400,
+      "img1": "AreaViews/SpecialCrates/2_special_crate_outside.jpg",
+      "img2": "AreaViews/SpecialCrates/2_special_crate.jpg"
+    },
+    {
+      "id": "special_3",
+      "name": "Vine Crate #3",
+      "description": "Located inside a shutter building\nGuarded by a bot",
+      "type": "specialCrate",
+      "x": 1400,
+      "y": 300,
+      "img1": "AreaViews/SpecialCrates/3_special_crate_outside.jpg",
+      "img2": "AreaViews/SpecialCrates/3_special_crate.jpg"
+    },
+
+    {
+      "id": "password_1",
+      "name": "Green Password Door",
+      "description": "Located at the Yasnaya PD, this locked room requires a Green Password Letter to enter. Once inside, you can expect normal-tier loot.",
+      "type": "passwordDoor",
+      "x": 670,
+      "y": 820,
+      "img1": null,
+      "img2": null,
+      "highlights": [
+        {
+          "text": "Green Password Letter",
+          "fontSize": 14,
+          "fontWeight": "bold",
+          "color": "#F2E097"
+        },
+        {
+          "text": "normal-tier loot",
+          "fontSize": 14,
+          "fontWeight": "bold",
+          "color": "#BA68C8"
+        }
+      ]
+    },
+    {
+      "id": "password_2",
+      "name": "White Password Door",
+      "description": "Located at the Tribe, this locked room requires a White Password Letter to enter. Be prepared to face the bots and sniper bots protecting the area. Once inside, you can expect normal-tier loot.",
+      "type": "passwordDoor",
+      "x": 1335,
+      "y": 890,
+      "img1": null,
+      "img2": null,
+      "highlights": [
+        {
+          "text": "White Password Letter",
+          "fontSize": 14,
+          "fontWeight": "bold",
+          "color": "#9B283C"
+        },
+        {
+          "text": "normal-tier loot",
+          "fontSize": 14,
+          "fontWeight": "bold",
+          "color": "#BA68C8"
+        }
+      ]
+    },
+
+    {
+      "id": "boss_1",
+      "name": "Boss #1",
+      "description": "Boss with m249 - Located at the Fort Fury, in a building",
+      "type": "boss",
+      "x": 640,
+      "y": 740,
+      "img1": null,
+      "img2": null
+    },
+    {
+      "id": "boss_2",
+      "name": "Boss #2",
+      "description": "Boss with m249 - Located at the Yasnaya PD, in the tunnel basement.",
+      "type": "boss",
+      "x": 1400,
+      "y": 1310,
+      "img1": null,
+      "img2": null
+    }
+  ]
+}

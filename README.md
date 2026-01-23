@@ -2,12 +2,11 @@
 
 # 🎮 Metro Royale Guide
 
-![Flutter](https://img.shields.io/badge/Flutter-Dart-blue?logo=flutter)
-![Metro Royale](https://img.shields.io/badge/PUBG_Mobile-Metro_Royale-blue?logo=pubg)
+![Flutter Dart](https://img.shields.io/badge/Flutter-Dart-blue?logo=flutter)
+![Metro Royale Guide](https://img.shields.io/badge/PUBG_Mobile-Metro_Royale-blue?logo=pubg)
 ![Platform](https://img.shields.io/badge/platform-Android%20%7C%20iOS%20%7C%20Windows%20%7C%20Linux%20%7C%20macOS-blue?logo=androidstudio&logoColor=white)
-![Github Release Downloads](https://img.shields.io/badge/PUBG_Mobile-Metro_Royale-blue?logo=pubg)
-<img src="https://img.shields.io/github/downloads/nithish-gajula/MetroRoyaleGuide/total?color=yellow&logo=github" alt="Downloads">
-<img src="https://img.shields.io/github/stars/nithish-gajula/MetroRoyaleGuide" alt="GitHub stars" />
+<img src="https://img.shields.io/github/downloads/nithish-gajula/MetroRoyaleGuide/total?color=yellow&logo=github" alt="GitHub Release Downloads">
+<img src="https://img.shields.io/github/stars/nithish-gajula/MetroRoyaleGuide" alt="GitHub Repo Stars" />
 
 </div>
 
@@ -32,7 +31,7 @@ An application that helps players understand PUBGM Metro Royale through interact
 ## 📦 Installation
 
 📱 **Android**: Download from the Google Play Store <a href="https://play.google.com/store/apps/details?id=com.nithishgajula.guide_for_pubg_metro_royale">
-    <img src="images/get_it_on_google_play.svg" alt="Get it on Google Play" height="40"></a>
+    <img src="Assets/Misc/get_it_on_google_play.svg" alt="Get it on Google Play" height="40"></a>
 
 #### 🐧 Linux
 
@@ -66,11 +65,11 @@ This software and its source code are **proprietary** and **confidential**.
 Unauthorized copying, modification, distribution, or use of this software, via any medium, is strictly prohibited.
 Reverse engineering, decompiling, or disassembling the software is prohibited to the maximum extent permitted by law.
 
-## 😊 Support
+## 🤝 Support & Connect
 
 <p align="center">
   <a href="https://play.google.com/store/apps/details?id=com.nithishgajula.guide_for_pubg_metro_royale">
-    <img src="images/get_it_on_google_play.svg" alt="Get it on Google Play" height="60">
+    <img src="Assets/Misc/get_it_on_google_play.svg" alt="Get it on Google Play" height="60">
   </a>
 </p>
 
@@ -84,8 +83,9 @@ Built with ❤️ for Metro Royale fans
 [![Developer Site](https://img.shields.io/badge/Portfolio-255E63?logo=About.me&logoColor=white)](https://nithish-gajula.github.io)
 [![Email](https://img.shields.io/badge/Gmail-D14836?logo=gmail&logoColor=white)](mailto:gajulanithish000@gmail.com)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?logo=linkedin&logoColor=white)](https://www.linkedin.com/in/nithish-gajula-90130b227)
+[![X](https://img.shields.io/badge/-000?logo=x&logoColor=white)](https://x.com/gajula_nithish)
 [![Instagram](https://img.shields.io/badge/Instagram-E4405F?logo=instagram&logoColor=white)](https://www.instagram.com/nithish_gajula)
-[![X](https://img.shields.io/badge/X-000000?logo=x&logoColor=white)](https://x.com/gajula_nithish)
+
 
 
 </div>

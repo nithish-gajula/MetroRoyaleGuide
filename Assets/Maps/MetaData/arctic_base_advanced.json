@@ -1,0 +1,1178 @@
+{
+  "mapId": "arctic_base_advanced",
+  "name": "Arctic Base Advanced",
+  "image": "Maps/LargeMaps/arctic_base_advanced.jpg",
+  "origWidth": 2000,
+  "origHeight": 2000,
+  "filters": [
+    {
+      "type": "squadSpawn",
+      "label": "Squad",
+      "color": "#9C27B0",
+      "icon": "SpawnIcons/squad.png"
+    },
+    {
+      "type": "soloSpawn",
+      "label": "Solo",
+      "color": "#FF9800",
+      "icon": "SpawnIcons/solo.png"
+    },
+    {
+      "type": "specialCrate",
+      "label": "Vine Crates",
+      "color": "#03A9F4",
+      "icon": "SpawnIcons/special_crate.png",
+      "details": true
+    },
+    {
+      "type": "supplyCrate",
+      "label": "Supply Crates",
+      "color": "#9DACB7",
+      "icon": "SpawnIcons/supply_crate.png",
+      "details": true
+    },
+    {
+      "type": "passwordDoor",
+      "label": "Password Doors",
+      "color": "#F44336",
+      "icon": "SpawnIcons/password_door.png",
+      "details": true
+    },
+    {
+      "type": "laptop",
+      "label": "Laptop",
+      "color": "#7E96DF",
+      "icon": "SpawnIcons/laptop.png"
+    },
+    {
+      "type": "shop",
+      "label": "Shop",
+      "color": "#9DACB7",
+      "icon": "SpawnIcons/shop.png"
+    },
+    {
+      "type": "boss",
+      "label": "Boss",
+      "color": "#9B283C",
+      "icon": "SpawnIcons/boss.png"
+    },
+    {
+      "type": "tank",
+      "label": "Tank",
+      "color": "#B3CEAB",
+      "icon": "SpawnIcons/tank.png"
+    },
+    {
+      "type": "zombieLab",
+      "label": "Zombie Labs",
+      "color": "#607D8B",
+      "icon": "SpawnIcons/zombie_lab.png",
+      "details": true
+    }
+  ],
+  "icons": {
+    "squadSpawn": {
+      "icon": "SpawnIcons/squad.png",
+      "size": 24,
+      "minSize": 15,
+      "maxSize": 30,
+      "defaultSize": 24
+    },
+    "soloSpawn": {
+      "icon": "SpawnIcons/solo.png",
+      "size": 24,
+      "minSize": 15,
+      "maxSize": 30,
+      "defaultSize": 24
+    },
+    "specialCrate": {
+      "icon": "SpawnIcons/special_crate.png",
+      "size": 24,
+      "minSize": 15,
+      "maxSize": 30,
+      "defaultSize": 24
+    },
+    "supplyCrate": {
+      "icon": "SpawnIcons/supply_crate.png",
+      "size": 15,
+      "minSize": 8,
+      "maxSize": 25,
+      "defaultSize": 15
+    },
+    "passwordDoor": {
+      "icon": "SpawnIcons/password_door.png",
+      "size": 20,
+      "minSize": 15,
+      "maxSize": 30,
+      "defaultSize": 20
+    },
+    "laptop": {
+      "icon": "SpawnIcons/laptop.png",
+      "size": 20,
+      "minSize": 15,
+      "maxSize": 30,
+      "defaultSize": 20
+    },
+    "shop": {
+      "icon": "SpawnIcons/shop.png",
+      "size": 20,
+      "minSize": 15,
+      "maxSize": 30,
+      "defaultSize": 20
+    },
+    "boss": {
+      "icon": "SpawnIcons/boss.png",
+      "size": 10,
+      "minSize": 8,
+      "maxSize": 20,
+      "defaultSize": 10
+    },
+    "tank": {
+      "icon": "SpawnIcons/tank.png",
+      "size": 20,
+      "minSize": 15,
+      "maxSize": 30,
+      "defaultSize": 20
+    },
+    "zombieLab": {
+      "icon": "SpawnIcons/zombie_lab.png",
+      "size": 22,
+      "minSize": 15,
+      "maxSize": 30,
+      "defaultSize": 22
+    }
+  },
+  "markers": [
+    {
+      "id": "squad_1",
+      "name": "Squad Spawn #1",
+      "description": "Heading towards the Armory Outpost tunnel puts you in the middle of an intense crossfire, as two rival squads are already battling for control.",
+      "type": "squadSpawn",
+      "x": 635,
+      "y": 210,
+      "img1": null,
+      "img2": null
+    },
+    {
+      "id": "squad_2",
+      "name": "Squad Spawn #2",
+      "description": "You can head to the Hydra Station for a Server Decryption mission—just stay alert, as other squads are likely to intercept. Alternatively, push toward the tunnel near the radiation zone for guaranteed close-quarters combat against at least two enemy squads.",
+      "type": "squadSpawn",
+      "x": 1150,
+      "y": 210,
+      "img1": null,
+      "img2": null
+    },
+    {
+      "id": "squad_3",
+      "name": "Squad Spawn #3",
+      "description": "Advancing toward the tunnel near the Support Center will put you up against a hostile squad already attempting to secure the tunnel entrance.",
+      "type": "squadSpawn",
+      "x": 1780,
+      "y": 365,
+      "img1": null,
+      "img2": null
+    },
+    {
+      "id": "squad_4",
+      "name": "Squad Spawn #4",
+      "description": "Positioned near the Support Center tunnel, this route takes you straight into a high-intensity clash, where at least two squads are already battling for control inside..",
+      "type": "squadSpawn",
+      "x": 1840,
+      "y": 670,
+      "img1": null,
+      "img2": null
+    },
+    {
+      "id": "squad_5",
+      "name": "Squad Spawn #5",
+      "description": "A relatively safe spawn point with minimal early encounters. If the area remains quiet, push toward the radiation zone to find action and higher-tier loot opportunities.",
+      "type": "squadSpawn",
+      "x": 1810,
+      "y": 1250,
+      "img1": null,
+      "img2": null
+    },
+    {
+      "id": "squad_6",
+      "name": "Squad Spawn #6",
+      "description": "Expect possible contact with an enemy squad early on, or head straight to the tunnel area for intense engagements where two rival squads are already clashing.",
+      "type": "squadSpawn",
+      "x": 1690,
+      "y": 1630,
+      "img1": null,
+      "img2": null
+    },
+    {
+      "id": "squad_7",
+      "name": "Squad Spawn #7",
+      "description": "A relatively safe spawn for those looking to avoid early combat. From here, you can move toward the radiation zone through the nearest tunnel for potential mid-game encounters.",
+      "type": "squadSpawn",
+      "x": 1290,
+      "y": 1775,
+      "img1": null,
+      "img2": null
+    },
+    {
+      "id": "squad_8",
+      "name": "Squad Spawn #8",
+      "description": "You might face an enemy squad right after deployment, but you can also move quickly toward the nearest tunnel to access the radiation zone. Alternatively, enter the zone through the main gate—expect a bit resistance there.",
+      "type": "squadSpawn",
+      "x": 660,
+      "y": 1830,
+      "img1": null,
+      "img2": null
+    },
+    {
+      "id": "squad_9",
+      "name": "Squad Spawn #9",
+      "description": "Expect an early clash with Squad 8 shortly after deployment. If you manage to avoid the fight, you’ll have one of the quickest routes to the radiation zone.",
+      "type": "squadSpawn",
+      "x": 310,
+      "y": 1680,
+      "img1": null,
+      "img2": null
+    },
+    {
+      "id": "squad_10",
+      "name": "Squad Spawn #10",
+      "description": "Rare Spawn Location - This spawn point is infrequently used, making it a hidden gem for squads seeking a quieter start. From here, you can plan your route to avoid early confrontations and focus on looting and strategic positioning.",
+      "type": "squadSpawn",
+      "x": 400,
+      "y": 1410,
+      "img1": null,
+      "img2": null,
+      "highlights": [
+        {
+          "text": "Rare Spawn Location",
+          "fontSize": 14,
+          "fontWeight": "bold",
+          "color": "#C70B63"
+        }
+      ]
+    },
+    {
+      "id": "squad_11",
+      "name": "Squad Spawn #11",
+      "description": "Positioned right on the edge of the radiation zone. If you manage to avoid early fights, you can safely loot half the zone and return loaded with high-value gear.",
+      "type": "squadSpawn",
+      "x": 770,
+      "y": 1260,
+      "img1": null,
+      "img2": null
+    },
+    {
+      "id": "squad_12",
+      "name": "Squad Spawn #12",
+      "description": "Located near the Armory Outpost tunnel, this spawn point often turns into a hotspot with intense battles against two to three enemy squads.",
+      "type": "squadSpawn",
+      "x": 170,
+      "y": 900,
+      "img1": null,
+      "img2": null
+    },
+    {
+      "id": "squad_13",
+      "name": "Squad Spawn #13",
+      "description": "Located near the Armory Outpost tunnel, this spawn point often turns into a hotspot with intense battles against two to three enemy squads.",
+      "type": "squadSpawn",
+      "x": 240,
+      "y": 520,
+      "img1": null,
+      "img2": null
+    },
+    {
+      "id": "squad_14",
+      "name": "Squad Spawn #14",
+      "description": "Located near the Armory Outpost tunnel, this spawn point often turns into a hotspot with intense battles against two to three enemy squads.",
+      "type": "squadSpawn",
+      "x": 810,
+      "y": 570,
+      "img1": null,
+      "img2": null
+    },
+    {
+      "id": "squad_15",
+      "name": "Squad Spawn #15",
+      "description": "Rare Spawn Location - This spawn point is infrequently used, making it a hidden gem for squads seeking a quieter start. From here, you can plan your route to avoid early confrontations and focus on looting and strategic positioning.",
+      "type": "squadSpawn",
+      "x": 1120,
+      "y": 780,
+      "img1": null,
+      "img2": null,
+      "highlights": [
+        {
+          "text": "Rare Spawn Location",
+          "fontSize": 14,
+          "fontWeight": "bold",
+          "color": "#C70B63"
+        }
+      ]
+    },
+
+    {
+      "id": "solo_1",
+      "name": "Solo Spawn #1",
+      "description": "Safer solo spawn, moderate loot.",
+      "type": "soloSpawn",
+      "x": 600,
+      "y": 210,
+      "img1": null,
+      "img2": null
+    },
+    {
+      "id": "solo_2",
+      "name": "Solo Spawn #2",
+      "description": "Safer solo spawn, moderate loot.",
+      "type": "soloSpawn",
+      "x": 1160,
+      "y": 200,
+      "img1": null,
+      "img2": null
+    },
+    {
+      "id": "solo_3",
+      "name": "Solo Spawn #3",
+      "description": "Safer solo spawn, moderate loot.",
+      "type": "soloSpawn",
+      "x": 1780,
+      "y": 370,
+      "img1": null,
+      "img2": null
+    },
+    {
+      "id": "solo_4",
+      "name": "Solo Spawn #4",
+      "description": "Safer solo spawn, moderate loot.",
+      "type": "soloSpawn",
+      "x": 1860,
+      "y": 680,
+      "img1": null,
+      "img2": null
+    },
+    {
+      "id": "solo_5",
+      "name": "Solo Spawn #5",
+      "description": "Safer solo spawn, moderate loot.",
+      "type": "soloSpawn",
+      "x": 1760,
+      "y": 1340,
+      "img1": null,
+      "img2": null
+    },
+    {
+      "id": "solo_6",
+      "name": "Solo Spawn #6",
+      "description": "Safer solo spawn, moderate loot.",
+      "type": "soloSpawn",
+      "x": 1690,
+      "y": 1640,
+      "img1": null,
+      "img2": null
+    },
+    {
+      "id": "solo_7",
+      "name": "Solo Spawn #7",
+      "description": "Safer solo spawn, moderate loot.",
+      "type": "soloSpawn",
+      "x": 1300,
+      "y": 1800,
+      "img1": null,
+      "img2": null
+    },
+    {
+      "id": "solo_8",
+      "name": "Solo Spawn #8",
+      "description": "Safer solo spawn, moderate loot.",
+      "type": "soloSpawn",
+      "x": 670,
+      "y": 1830,
+      "img1": null,
+      "img2": null
+    },
+    {
+      "id": "solo_9",
+      "name": "Solo Spawn #9",
+      "description": "Safer solo spawn, moderate loot.",
+      "type": "soloSpawn",
+      "x": 360,
+      "y": 1720,
+      "img1": null,
+      "img2": null
+    },
+    {
+      "id": "solo_10",
+      "name": "Solo Spawn #10",
+      "description": "Safer solo spawn, moderate loot.",
+      "type": "soloSpawn",
+      "x": 220,
+      "y": 1440,
+      "img1": null,
+      "img2": null
+    },
+    {
+      "id": "solo_11",
+      "name": "Solo Spawn #11",
+      "description": "Safer solo spawn, moderate loot.",
+      "type": "soloSpawn",
+      "x": 140,
+      "y": 960,
+      "img1": null,
+      "img2": null
+    },
+    {
+      "id": "solo_12",
+      "name": "Solo Spawn #12",
+      "description": "Safer solo spawn, moderate loot.",
+      "type": "soloSpawn",
+      "x": 220,
+      "y": 600,
+      "img1": null,
+      "img2": null
+    },
+    {
+      "id": "solo_13",
+      "name": "Solo Spawn #13",
+      "description": "Safer solo spawn, moderate loot.",
+      "type": "soloSpawn",
+      "x": 460,
+      "y": 550,
+      "img1": null,
+      "img2": null
+    },
+    {
+      "id": "solo_14",
+      "name": "Solo Spawn #14",
+      "description": "Safer solo spawn, moderate loot.",
+      "type": "soloSpawn",
+      "x": 810,
+      "y": 580,
+      "img1": null,
+      "img2": null
+    },
+    {
+      "id": "solo_15",
+      "name": "Solo Spawn #15",
+      "description": "Safer solo spawn, moderate loot.",
+      "type": "soloSpawn",
+      "x": 910,
+      "y": 450,
+      "img1": null,
+      "img2": null
+    },
+    {
+      "id": "solo_16",
+      "name": "Solo Spawn #16",
+      "description": "Safer solo spawn, moderate loot.",
+      "type": "soloSpawn",
+      "x": 1320,
+      "y": 390,
+      "img1": null,
+      "img2": null
+    },
+    {
+      "id": "solo_17",
+      "name": "Solo Spawn #17",
+      "description": "Safer solo spawn, moderate loot.",
+      "type": "soloSpawn",
+      "x": 1380,
+      "y": 590,
+      "img1": null,
+      "img2": null
+    },
+    {
+      "id": "solo_18",
+      "name": "Solo Spawn #18",
+      "description": "Safer solo spawn, moderate loot.",
+      "type": "soloSpawn",
+      "x": 1400,
+      "y": 860,
+      "img1": null,
+      "img2": null
+    },
+    {
+      "id": "solo_19",
+      "name": "Solo Spawn #19",
+      "description": "Rare Spawn Location - This spawn point is infrequently used, making it a hidden gem for solo players seeking a quieter start. From here, you can plan your route to avoid early confrontations and focus on looting and strategic positioning.",
+      "type": "soloSpawn",
+      "x": 1670,
+      "y": 1095,
+      "img1": null,
+      "img2": null,
+      "highlights": [
+        {
+          "text": "Rare Spawn Location",
+          "fontSize": 14,
+          "fontWeight": "bold",
+          "color": "#C70B63"
+        }
+      ]
+    },
+    {
+      "id": "solo_20",
+      "name": "Solo Spawn #20",
+      "description": "Safer solo spawn, moderate loot.",
+      "type": "soloSpawn",
+      "x": 1360,
+      "y": 1600,
+      "img1": null,
+      "img2": null
+    },
+    {
+      "id": "solo_21",
+      "name": "Solo Spawn #21",
+      "description": "Rare Spawn Location - This spawn point is infrequently used, making it a hidden gem for solo players seeking a quieter start. From here, you can plan your route to avoid early confrontations and focus on looting and strategic positioning.",
+      "type": "soloSpawn",
+      "x": 1150,
+      "y": 1760,
+      "img1": null,
+      "img2": null,
+      "highlights": [
+        {
+          "text": "Rare Spawn Location",
+          "fontSize": 14,
+          "fontWeight": "bold",
+          "color": "#C70B63"
+        }
+      ]
+    },
+    {
+      "id": "solo_22",
+      "name": "Solo Spawn #22",
+      "description": "Safer solo spawn, moderate loot.",
+      "type": "soloSpawn",
+      "x": 680,
+      "y": 1500,
+      "img1": null,
+      "img2": null
+    },
+    {
+      "id": "solo_23",
+      "name": "Solo Spawn #23",
+      "description": "Safer solo spawn, moderate loot.",
+      "type": "soloSpawn",
+      "x": 440,
+      "y": 1170,
+      "img1": null,
+      "img2": null
+    },
+    {
+      "id": "solo_24",
+      "name": "Solo Spawn #24",
+      "description": "Safer solo spawn, moderate loot.",
+      "type": "soloSpawn",
+      "x": 390,
+      "y": 900,
+      "img1": null,
+      "img2": null
+    },
+    {
+      "id": "solo_25",
+      "name": "Solo Spawn #25",
+      "description": "Safer solo spawn, moderate loot.",
+      "type": "soloSpawn",
+      "x": 700,
+      "y": 840,
+      "img1": null,
+      "img2": null
+    },
+    {
+      "id": "solo_26",
+      "name": "Solo Spawn #26",
+      "description": "Safer solo spawn, moderate loot.",
+      "type": "soloSpawn",
+      "x": 830,
+      "y": 870,
+      "img1": null,
+      "img2": null
+    },
+    {
+      "id": "solo_27",
+      "name": "Solo Spawn #27",
+      "description": "Safer solo spawn, moderate loot.",
+      "type": "soloSpawn",
+      "x": 1130,
+      "y": 780,
+      "img1": null,
+      "img2": null
+    },
+    {
+      "id": "solo_28",
+      "name": "Solo Spawn #28",
+      "description": "Safer solo spawn, moderate loot.",
+      "type": "soloSpawn",
+      "x": 1190,
+      "y": 940,
+      "img1": null,
+      "img2": null
+    },
+    {
+      "id": "solo_29",
+      "name": "Solo Spawn #29",
+      "description": "Safer solo spawn, moderate loot.",
+      "type": "soloSpawn",
+      "x": 1150,
+      "y": 1160,
+      "img1": null,
+      "img2": null
+    },
+    {
+      "id": "solo_30",
+      "name": "Solo Spawn #30",
+      "description": "Safer solo spawn, moderate loot.",
+      "type": "soloSpawn",
+      "x": 1270,
+      "y": 1340,
+      "img1": null,
+      "img2": null
+    },
+    {
+      "id": "solo_31",
+      "name": "Solo Spawn #31",
+      "description": "Safer solo spawn, moderate loot.",
+      "type": "soloSpawn",
+      "x": 1200,
+      "y": 1480,
+      "img1": null,
+      "img2": null
+    },
+    {
+      "id": "solo_32",
+      "name": "Solo Spawn #32",
+      "description": "Safer solo spawn, moderate loot.",
+      "type": "soloSpawn",
+      "x": 800,
+      "y": 1400,
+      "img1": null,
+      "img2": null
+    },
+    {
+      "id": "solo_33",
+      "name": "Solo Spawn #33",
+      "description": "Safer solo spawn, moderate loot.",
+      "type": "soloSpawn",
+      "x": 800,
+      "y": 1220,
+      "img1": null,
+      "img2": null
+    },
+
+    {
+      "id": "special_1",
+      "name": "Vine Crate #1",
+      "description": "Located outside the building",
+      "type": "specialCrate",
+      "x": 670,
+      "y": 300,
+      "img1": "AreaViews/SpecialCrates/1_special_crate_outside.jpg",
+      "img2": "AreaViews/SpecialCrates/1_special_crate.jpg"
+    },
+    {
+      "id": "special_2",
+      "name": "Vine Crate #2",
+      "description": "Located inside a room in a building\nGuarded by a bot",
+      "type": "specialCrate",
+      "x": 1100,
+      "y": 400,
+      "img1": "AreaViews/SpecialCrates/2_special_crate_outside.jpg",
+      "img2": "AreaViews/SpecialCrates/2_special_crate.jpg"
+    },
+    {
+      "id": "special_3",
+      "name": "Vine Crate #3",
+      "description": "Located inside a shutter building\nGuarded by a bot",
+      "type": "specialCrate",
+      "x": 1400,
+      "y": 300,
+      "img1": "AreaViews/SpecialCrates/3_special_crate_outside.jpg",
+      "img2": "AreaViews/SpecialCrates/3_special_crate.jpg"
+    },
+    {
+      "id": "special_4",
+      "name": "Vine Crate #4",
+      "description": "Located inside the wooden shed",
+      "type": "specialCrate",
+      "x": 1670,
+      "y": 470,
+      "img1": "AreaViews/SpecialCrates/4_special_crate_outside.jpg",
+      "img2": "AreaViews/SpecialCrates/4_special_crate.jpg"
+    },
+    {
+      "id": "special_5",
+      "name": "Vine Crate #5",
+      "description": "Located at one corner of the compound wall\nGuarded by a bot",
+      "type": "specialCrate",
+      "x": 1600,
+      "y": 700,
+      "img1": "AreaViews/SpecialCrates/5_special_crate_outside.jpg",
+      "img2": "AreaViews/SpecialCrates/5_special_crate.jpg"
+    },
+    {
+      "id": "special_6",
+      "name": "Vine Crate #6",
+      "description": "Located inside a warehouse\nGuarded by 2 bots",
+      "type": "specialCrate",
+      "x": 1360,
+      "y": 840,
+      "img1": "AreaViews/SpecialCrates/6_special_crate_outside.jpg",
+      "img2": "AreaViews/SpecialCrates/6_special_crate.jpg"
+    },
+    {
+      "id": "special_7",
+      "name": "Vine Crate #7",
+      "description": "Located within compound walls\nGuarded by a bot",
+      "type": "specialCrate",
+      "x": 1610,
+      "y": 1010,
+      "img1": "AreaViews/SpecialCrates/7_special_crate_outside.jpg",
+      "img2": "AreaViews/SpecialCrates/7_special_crate.jpg"
+    },
+    {
+      "id": "special_8",
+      "name": "Vine Crate #8",
+      "description": "Located outside the buildings\nGuarded by a bot",
+      "type": "specialCrate",
+      "x": 1830,
+      "y": 1040,
+      "img1": "AreaViews/SpecialCrates/8_special_crate_outside.jpg",
+      "img2": "AreaViews/SpecialCrates/8_special_crate.jpg"
+    },
+    {
+      "id": "special_9",
+      "name": "Vine Crate #9",
+      "description": "Located at a corner of the compound wall\nGuarded by a bot",
+      "type": "specialCrate",
+      "x": 1300,
+      "y": 1300,
+      "img1": "AreaViews/SpecialCrates/9_special_crate_outside.jpg",
+      "img2": "AreaViews/SpecialCrates/9_special_crate.jpg"
+    },
+    {
+      "id": "special_10",
+      "name": "Vine Crate #10",
+      "description": "Located outside the buildings",
+      "type": "specialCrate",
+      "x": 1790,
+      "y": 1330,
+      "img1": "AreaViews/SpecialCrates/10_special_crate_outside.jpg",
+      "img2": "AreaViews/SpecialCrates/10_special_crate.jpg"
+    },
+    {
+      "id": "special_11",
+      "name": "Vine Crate #11",
+      "description": "Located inside the warehouse\nGuarded by 2 bots",
+      "type": "specialCrate",
+      "x": 1450,
+      "y": 1500,
+      "img1": "AreaViews/SpecialCrates/11_special_crate_outside.jpg",
+      "img2": "AreaViews/SpecialCrates/11_special_crate.jpg"
+    },
+    {
+      "id": "special_12",
+      "name": "Vine Crate #12",
+      "description": "Located outside the buildings\nGuarded by a bot",
+      "type": "specialCrate",
+      "x": 1000,
+      "y": 1390,
+      "img1": "AreaViews/SpecialCrates/12_special_crate_outside.jpg",
+      "img2": "AreaViews/SpecialCrates/12_special_crate.jpg"
+    },
+    {
+      "id": "special_13",
+      "name": "Vine Crate #13",
+      "description": "Located outside teh buildings",
+      "type": "specialCrate",
+      "x": 940,
+      "y": 1700,
+      "img1": "AreaViews/SpecialCrates/13_special_crate_outside.jpg",
+      "img2": "AreaViews/SpecialCrates/13_special_crate.jpg"
+    },
+    {
+      "id": "special_14",
+      "name": "Vine Crate #14",
+      "description": "Located at one corner of the building\nGuarded by a bot",
+      "type": "specialCrate",
+      "x": 650,
+      "y": 1500,
+      "img1": "AreaViews/SpecialCrates/14_special_crate_outside.jpg",
+      "img2": "AreaViews/SpecialCrates/14_special_crate.jpg"
+    },
+    {
+      "id": "special_15",
+      "name": "Vine Crate #15",
+      "description": "Located at backside of one cement room",
+      "type": "specialCrate",
+      "x": 570,
+      "y": 1320,
+      "img1": "AreaViews/SpecialCrates/15_special_crate_outside.jpg",
+      "img2": "AreaViews/SpecialCrates/15_special_crate.jpg"
+    },
+    {
+      "id": "special_16",
+      "name": "Vine Crate #16",
+      "description": "Located outside the houses\nGuarded by a bot",
+      "type": "specialCrate",
+      "x": 380,
+      "y": 1420,
+      "img1": "AreaViews/SpecialCrates/16_special_crate_outside.jpg",
+      "img2": "AreaViews/SpecialCrates/16_special_crate.jpg"
+    },
+    {
+      "id": "special_17",
+      "name": "Vine Crate #17",
+      "description": "Located inside a room on 1st floor\nGuarded by a mini boss",
+      "type": "specialCrate",
+      "x": 440,
+      "y": 1190,
+      "img1": "AreaViews/SpecialCrates/17_special_crate_outside.jpg",
+      "img2": "AreaViews/SpecialCrates/17_special_crate.jpg"
+    },
+    {
+      "id": "special_18",
+      "name": "Vine Crate #18",
+      "description": "Located inside a warehouse\nGuarded by a bot",
+      "type": "specialCrate",
+      "x": 330,
+      "y": 930,
+      "img1": "AreaViews/SpecialCrates/18_special_crate_outside.jpg",
+      "img2": "AreaViews/SpecialCrates/18_special_crate.jpg"
+    },
+    {
+      "id": "special_19",
+      "name": "Vine Crate #19",
+      "description": "Located inside a room outside the buildings\nGuarded by a bot",
+      "type": "specialCrate",
+      "x": 700,
+      "y": 920,
+      "img1": "AreaViews/SpecialCrates/19_special_crate_outside.jpg",
+      "img2": "AreaViews/SpecialCrates/19_special_crate.jpg"
+    },
+    {
+      "id": "special_20",
+      "name": "Vine Crate #20",
+      "description": "Located outside a warehouse gate",
+      "type": "specialCrate",
+      "x": 480,
+      "y": 570,
+      "img1": "AreaViews/SpecialCrates/20_special_crate_outside.jpg",
+      "img2": "AreaViews/SpecialCrates/20_special_crate.jpg"
+    },
+
+    {
+      "id": "supply_1",
+      "name": "supply #1",
+      "description": "Located in Timber Yard, under the JCB machine",
+      "type": "supplyCrate",
+      "x": 270,
+      "y": 970,
+      "img1": "AreaViews/SupplyCrates/1_supply_crate_outside.jpg",
+      "img2": "AreaViews/SupplyCrates/1_supply_crate.jpg"
+    },
+    {
+      "id": "supply_2",
+      "name": "supply #2",
+      "description": "Located at Wheat Field, near the military tents",
+      "type": "supplyCrate",
+      "x": 1275,
+      "y": 1830,
+      "img1": "AreaViews/SupplyCrates/2_supply_crate_outside.jpg",
+      "img2": "AreaViews/SupplyCrates/2_supply_crate.jpg"
+    },
+    {
+      "id": "supply_3",
+      "name": "supply #3",
+      "description": "Located at Wheat Field, In front of a rock",
+      "type": "supplyCrate",
+      "x": 1270,
+      "y": 1740,
+      "img1": "AreaViews/SupplyCrates/3_supply_crate_outside.jpg",
+      "img2": "AreaViews/SupplyCrates/3_supply_crate.jpg"
+    },
+
+    {
+      "id": "password_1",
+      "name": "Yellow Password Door",
+      "description": "Located at the Armory Outpost, this locked room requires a Yellow Password Letter to enter. Once inside, you can expect moderate-tier loot.",
+      "type": "passwordDoor",
+      "x": 720,
+      "y": 830,
+      "img1": "AreaViews/PasswordDoors/1_password_door_outside.jpg",
+      "img2": "AreaViews/PasswordDoors/1_password_door.jpg",
+      "highlights": [
+        {
+          "text": "Yellow Password Letter",
+          "fontSize": 14,
+          "fontWeight": "bold",
+          "color": "#F2E097"
+        },
+        {
+          "text": "moderate-tier loot",
+          "fontSize": 14,
+          "fontWeight": "bold",
+          "color": "#BA68C8"
+        }
+      ]
+    },
+    {
+      "id": "password_2",
+      "name": "Red Password Door",
+      "description": "Located at the Support Center, this locked room requires a Red Password Letter to enter. Be prepared to face the Steel Front Boss guarding the entrance. Once inside, you can expect moderate-tier loot.",
+      "type": "passwordDoor",
+      "x": 1345,
+      "y": 895,
+      "img1": "AreaViews/PasswordDoors/2_password_door_outside.jpg",
+      "img2": "AreaViews/PasswordDoors/2_password_door.jpg",
+      "highlights": [
+        {
+          "text": "Red Password Letter",
+          "fontSize": 14,
+          "fontWeight": "bold",
+          "color": "#9B283C"
+        },
+        {
+          "text": "moderate-tier loot",
+          "fontSize": 14,
+          "fontWeight": "bold",
+          "color": "#BA68C8"
+        }
+      ]
+    },
+    {
+      "id": "password_3",
+      "name": "Black Password Door #A",
+      "description": "Located within the Radiation Zone, this locked room requires a  Black Password Letter  to enter. Once inside, You can get guaranteed high-tier loot.\nℹ️ Only one black door (either #A or #B) can be opened randomly per match.",
+      "type": "passwordDoor",
+      "x": 1070,
+      "y": 1050,
+      "img1": "AreaViews/PasswordDoors/3_password_door_outside.jpg",
+      "img2": "AreaViews/PasswordDoors/3_password_door.jpg",
+      "highlights": [
+        {
+          "text": " Black Password Letter ",
+          "fontSize": 14,
+          "fontWeight": "bold",
+          "color": "#000000",
+          "backgroundColor": "#BABBBD"
+        },
+        {
+          "text": "high-tier loot",
+          "fontSize": 14,
+          "fontWeight": "bold",
+          "color": "#F55995"
+        }
+      ]
+    },
+    {
+      "id": "password_4",
+      "name": "Black Password Door #B",
+      "description": "Located within the Radiation Zone, this locked room requires a  Black Password Letter  to enter. Once inside, You can get guaranteed high-tier loot.\nℹ️ Only one black door (either #A or #B) can be opened randomly per match.",
+      "type": "passwordDoor",
+      "x": 920,
+      "y": 910,
+      "img1": "AreaViews/PasswordDoors/4_password_door_outside.jpg",
+      "img2": "AreaViews/PasswordDoors/4_password_door.jpg",
+      "highlights": [
+        {
+          "text": " Black Password Letter ",
+          "fontSize": 14,
+          "fontWeight": "bold",
+          "color": "#000000",
+          "backgroundColor": "#BABBBD"
+        },
+        {
+          "text": "high-tier loot",
+          "fontSize": 14,
+          "fontWeight": "bold",
+          "color": "#F55995"
+        }
+      ]
+    },
+
+    {
+      "id": "laptop_1",
+      "name": "Laptop #1",
+      "description": "Located at Aromor Outpost, Only 2 laptops are available outside the radiation randomly per match. Laptop may or maynot available here.",
+      "type": "laptop",
+      "x": 730,
+      "y": 830,
+      "img1": null,
+      "img2": null
+    },
+    {
+      "id": "laptop_2",
+      "name": "Laptop #2",
+      "description": "Located at Hydro Station, Only 2 laptops are available outside the radiation randomly per match. Laptop may or maynot available here.",
+      "type": "laptop",
+      "x": 1310,
+      "y": 530,
+      "img1": null,
+      "img2": null
+    },
+    {
+      "id": "laptop_3",
+      "name": "Laptop #3",
+      "description": "Located at Highland Outpost, Only 2 laptops are available outside the radiation randomly per match. Laptop may or maynot available here.",
+      "type": "laptop",
+      "x": 1275,
+      "y": 1285,
+      "img1": null,
+      "img2": null
+    },
+    {
+      "id": "laptop_4",
+      "name": "Laptop #4",
+      "description": "Located at Brich Dwelling, Only 2 laptops are available outside the radiation randomly per match. Laptop may or maynot available here.",
+      "type": "laptop",
+      "x": 720,
+      "y": 1470,
+      "img1": null,
+      "img2": null
+    },
+    {
+      "id": "laptop_5",
+      "name": "Laptop #5",
+      "description": "Located within Radiation at Factory, Only 1 laptop is available within the radiation randomly per match. Laptop may or maynot available here.",
+      "type": "laptop",
+      "x": 980,
+      "y": 1125,
+      "img1": null,
+      "img2": null
+    },
+    {
+      "id": "laptop_6",
+      "name": "Laptop #6",
+      "description": "Located within Radiation at Dispatch Center, Only 1 laptop is available within the radiation randomly per match. Laptop may or maynot available here.",
+      "type": "laptop",
+      "x": 1045,
+      "y": 900,
+      "img1": null,
+      "img2": null
+    },
+
+    {
+      "id": "shop_1",
+      "name": "Shop #1",
+      "description": "Located at the Hydro Station, at the ground floor",
+      "type": "shop",
+      "x": 1300,
+      "y": 540,
+      "img1": null,
+      "img2": null
+    },
+    {
+      "id": "shop_2",
+      "name": "Shop #2",
+      "description": "Located at the Arsena, near the zipline",
+      "type": "shop",
+      "x": 590,
+      "y": 1255,
+      "img1": null,
+      "img2": null
+    },
+
+    {
+      "id": "boss_1",
+      "name": "Boss #1",
+      "description": "Infected boss with pistol - Located at the Armory Outpost, in a downside building",
+      "type": "boss",
+      "x": 800,
+      "y": 900,
+      "img1": null,
+      "img2": null
+    },
+    {
+      "id": "boss_2",
+      "name": "Boss #2",
+      "description": "Steel front boss with m249 - Located at the Support Center, on the first floor.",
+      "type": "boss",
+      "x": 1375,
+      "y": 880,
+      "img1": null,
+      "img2": null
+    },
+    {
+      "id": "boss_3",
+      "name": "Boss #3",
+      "description": "Shotgun boss with S12k - Located at the Special Barracks, on the first floor",
+      "type": "boss",
+      "x": 965,
+      "y": 1365,
+      "img1": null,
+      "img2": null
+    },
+
+    {
+      "id": "tank_1",
+      "name": "Tank #1",
+      "description": "Tank boss - Located near the Support Center Road, Roaming around the area, Defeat it to earn guaranteed Glod Pile with some cash.\nTip: Backstab the tank to deal more damage.",
+      "type": "tank",
+      "x": 1280,
+      "y": 960,
+      "img1": null,
+      "img2": null,
+      "highlights": [
+        {
+          "text": "Tank boss",
+          "fontSize": 14,
+          "fontWeight": "bold",
+          "color": "#144931"
+        },
+        {
+          "text": "Tip:",
+          "fontSize": 14,
+          "fontWeight": "bold",
+          "color": "#5A5293"
+        }
+      ]
+    },
+
+    {
+      "id": "zombie_1",
+      "name": "zombie Lab #1",
+      "description": "Requires any Stable Genetic Code to produce a  Zombie 🧟",
+      "type": "zombieLab",
+      "x": 310,
+      "y": 930,
+      "img1": "AreaViews/ZombieLabs/1_zombie_lab_outside.jpg",
+      "img2": "AreaViews/ZombieLabs/1_zombie_lab.jpg",
+      "highlights": [
+        {
+          "text": "Stable Genetic Code",
+          "fontSize": 14,
+          "fontWeight": "bold",
+          "color": "#64B5F6"
+        },
+        {
+          "text": "Zombie",
+          "fontSize": 14,
+          "color": "#7CFC00",
+          "fontFamily": "Zombie"
+        }
+      ]
+    },
+    {
+      "id": "zombie_2",
+      "name": "zombie Lab #2",
+      "description": "Requires any Stable Genetic Code to produce a  Zombie 🧟",
+      "type": "zombieLab",
+      "x": 1590,
+      "y": 1020,
+      "img1": "AreaViews/ZombieLabs/2_zombie_lab_outside.jpg",
+      "img2": "AreaViews/ZombieLabs/2_zombie_lab.jpg",
+      "highlights": [
+        {
+          "text": "Stable Genetic Code",
+          "fontSize": 14,
+          "fontWeight": "bold",
+          "color": "#64B5F6"
+        },
+        {
+          "text": "Zombie",
+          "fontSize": 14,
+          "color": "#7CFC00",
+          "fontFamily": "Zombie"
+        }
+      ]
+    }
+  ]
+}

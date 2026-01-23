@@ -1,0 +1,976 @@
+{
+  "mapId": "arctic_base_radiation",
+  "name": "Arctic Base Radiation",
+  "image": "Maps/LargeMaps/arctic_base_radiation.jpg",
+  "origWidth": 1000,
+  "origHeight": 1000,
+  "filters": [
+    {
+      "type": "supplyCrate",
+      "label": "Supply Crates",
+      "color": "#9DACB7",
+      "icon": "SpawnIcons/supply_crate.png"
+    },
+    {
+      "type": "weaponCrate",
+      "label": "Weapon Crates",
+      "color": "#C4D0B0",
+      "icon": "SpawnIcons/weapon_crate.png"
+    },
+    {
+      "type": "fileCabinet",
+      "label": "File Cabinets",
+      "color": "#7B8265",
+      "icon": "SpawnIcons/file_cabinet.png"
+    },
+    {
+      "type": "passwordDoor",
+      "label": "Password Doors",
+      "color": "#F44336",
+      "icon": "SpawnIcons/password_door.png",
+      "details": true
+    },
+    {
+      "type": "laptop",
+      "label": "Laptop",
+      "color": "#7E96DF",
+      "icon": "SpawnIcons/laptop.png"
+    },
+    {
+      "type": "boss",
+      "label": "Boss",
+      "color": "#9B283C",
+      "icon": "SpawnIcons/boss.png"
+    }
+  ],
+  "icons": {
+    "supplyCrate": {
+      "icon": "SpawnIcons/supply_crate.png",
+      "size": 10,
+      "minSize": 8,
+      "maxSize": 25,
+      "defaultSize": 10
+    },
+    "weaponCrate": {
+      "icon": "SpawnIcons/weapon_crate.png",
+      "size": 20,
+      "minSize": 15,
+      "maxSize": 30,
+      "defaultSize": 20
+    },
+    "fileCabinet": {
+      "icon": "SpawnIcons/file_cabinet.png",
+      "size": 20,
+      "minSize": 15,
+      "maxSize": 30,
+      "defaultSize": 20
+    },
+    "passwordDoor": {
+      "icon": "SpawnIcons/password_door.png",
+      "size": 20,
+      "minSize": 15,
+      "maxSize": 30,
+      "defaultSize": 20
+    },
+    "laptop": {
+      "icon": "SpawnIcons/laptop.png",
+      "size": 20,
+      "minSize": 15,
+      "maxSize": 30,
+      "defaultSize": 20
+    },
+    "boss": {
+      "icon": "SpawnIcons/boss.png",
+      "size": 10,
+      "minSize": 8,
+      "maxSize": 20,
+      "defaultSize": 10
+    }
+  },
+  "markers": [
+    {
+      "id": "supply_1",
+      "name": "supply #1",
+      "description": "First supply crate at the Gate entrance, easy to grab but exposed to anyone watching the approach.",
+      "type": "supplyCrate",
+      "x": 210,
+      "y": 710,
+      "img1": null,
+      "img2": null
+    },
+    {
+      "id": "supply_2",
+      "name": "supply #2",
+      "description": "Supply crate inside a second-floor room to the left side of the Gate, offering safer loot with decent cover.",
+      "type": "supplyCrate",
+      "x": 270,
+      "y": 630,
+      "img1": null,
+      "img2": null
+    },
+    {
+      "id": "supply_3",
+      "name": "supply #3",
+      "description": "Crate located inside the main Dormitory building, a solid stop while clearing rooms for loot.",
+      "type": "supplyCrate",
+      "x": 240,
+      "y": 540,
+      "img1": null,
+      "img2": null
+    },
+    {
+      "id": "supply_4",
+      "name": "supply #4",
+      "description": "Another supply crate within the Dormitory interior, often chained with nearby crates for efficient looting.",
+      "type": "supplyCrate",
+      "x": 215,
+      "y": 510,
+      "img1": null,
+      "img2": null
+    },
+    {
+      "id": "supply_5",
+      "name": "supply #5",
+      "description": "Dormitory crate placed deeper inside the building, rewarding players who fully clear the structure.",
+      "type": "supplyCrate",
+      "x": 210,
+      "y": 545,
+      "img1": null,
+      "img2": null
+    },
+    {
+      "id": "supply_6",
+      "name": "supply #6",
+      "description": "Supply crate inside the L-shaped Dormitory building, ideal for route-based looting runs.",
+      "type": "supplyCrate",
+      "x": 150,
+      "y": 420,
+      "img1": null,
+      "img2": null
+    },
+    {
+      "id": "supply_7",
+      "name": "supply #7",
+      "description": "Crate inside a room at the Dormitory tunnel entrance, often contested by players rotating into the tunnels.",
+      "type": "supplyCrate",
+      "x": 200,
+      "y": 315,
+      "img1": null,
+      "img2": null
+    },
+    {
+      "id": "supply_8",
+      "name": "supply #8",
+      "description": "Supply crate inside the C-shaped Dormitory building, useful for stacking loot before pushing out.",
+      "type": "supplyCrate",
+      "x": 270,
+      "y": 410,
+      "img1": null,
+      "img2": null
+    },
+    {
+      "id": "supply_9",
+      "name": "supply #9",
+      "description": "Another crate inside the C-shaped Dormitory building, easily chained with #8 and #10 for efficient clearing.",
+      "type": "supplyCrate",
+      "x": 290,
+      "y": 430,
+      "img1": null,
+      "img2": null
+    },
+    {
+      "id": "supply_10",
+      "name": "supply #10",
+      "description": "C-shaped Dormitory crate positioned slightly deeper inside, rewarding careful room-to-room pushes.",
+      "type": "supplyCrate",
+      "x": 290,
+      "y": 470,
+      "img1": null,
+      "img2": null
+    },
+    {
+      "id": "supply_11",
+      "name": "supply #11",
+      "description": "Open-area crate at the Launch Silo, offering fast loot but leaving you exposed to long-range sniper fire.",
+      "type": "supplyCrate",
+      "x": 330,
+      "y": 335,
+      "img1": null,
+      "img2": null
+    },
+    {
+      "id": "supply_12",
+      "name": "supply #12",
+      "description": "Another Launch Silo open-area crate, best looted while using nearby cover and constant movement.",
+      "type": "supplyCrate",
+      "x": 370,
+      "y": 330,
+      "img1": null,
+      "img2": null
+    },
+    {
+      "id": "supply_13",
+      "name": "supply #13",
+      "description": "Launch Silo supply crate placed in the open, risky but efficient for quick rotations through the area.",
+      "type": "supplyCrate",
+      "x": 375,
+      "y": 340,
+      "img1": null,
+      "img2": null
+    },
+    {
+      "id": "supply_14",
+      "name": "supply #14",
+      "description": "Crate in the exposed Launch Silo grounds, vulnerable to elevated sightlines and hidden snipers.",
+      "type": "supplyCrate",
+      "x": 360,
+      "y": 260,
+      "img1": null,
+      "img2": null
+    },
+    {
+      "id": "supply_15",
+      "name": "supply #15",
+      "description": "Launch Silo open-area loot point, rewarding aggressive teams controlling the central ground.",
+      "type": "supplyCrate",
+      "x": 410,
+      "y": 350,
+      "img1": null,
+      "img2": null
+    },
+    {
+      "id": "supply_16",
+      "name": "supply #16",
+      "description": "Another open Launch Silo crate; secure the perimeter before looting to avoid getting beamed.",
+      "type": "supplyCrate",
+      "x": 410,
+      "y": 300,
+      "img1": null,
+      "img2": null
+    },
+    {
+      "id": "supply_17",
+      "name": "supply #17",
+      "description": "Exposed Launch Silo crate positioned near high-traffic lines of sight, ideal for bait plays.",
+      "type": "supplyCrate",
+      "x": 420,
+      "y": 310,
+      "img1": null,
+      "img2": null
+    },
+    {
+      "id": "supply_18",
+      "name": "supply #18",
+      "description": "Crate on the Launch Silo grounds, a common stop for squads rotating between river and central area.",
+      "type": "supplyCrate",
+      "x": 450,
+      "y": 280,
+      "img1": null,
+      "img2": null
+    },
+    {
+      "id": "supply_19",
+      "name": "supply #19",
+      "description": "Supply crate inside Locked Door #B, accessible only with a Black Password Letter and offering guaranteed high-tier loot.",
+      "type": "supplyCrate",
+      "x": 338,
+      "y": 252,
+      "img1": null,
+      "img2": null
+    },
+    {
+      "id": "supply_20",
+      "name": "supply #20",
+      "description": "Another crate inside Locked Door #B, stacking even more high-tier loot for those who invest the password.",
+      "type": "supplyCrate",
+      "x": 350,
+      "y": 245,
+      "img1": null,
+      "img2": null
+    },
+    {
+      "id": "supply_21",
+      "name": "supply #21",
+      "description": "Third crate hidden behind Locked Door #B, turning this vault into a massive payday if you get in.",
+      "type": "supplyCrate",
+      "x": 363,
+      "y": 237,
+      "img1": null,
+      "img2": null
+    },
+    {
+      "id": "supply_22",
+      "name": "supply #22",
+      "description": "Crate inside a room at Launch Silo near the frozen river, offering good loot with moderate risk.",
+      "type": "supplyCrate",
+      "x": 525,
+      "y": 380,
+      "img1": null,
+      "img2": null
+    },
+    {
+      "id": "supply_23",
+      "name": "supply #23",
+      "description": "Supply crate inside the Dispatch Center building, a key stop while clearing this high-value structure.",
+      "type": "supplyCrate",
+      "x": 575,
+      "y": 270,
+      "img1": null,
+      "img2": null
+    },
+    {
+      "id": "supply_24",
+      "name": "supply #24",
+      "description": "Another Dispatch Center crate, often looted alongside nearby weapon and file cabinets for maximum value.",
+      "type": "supplyCrate",
+      "x": 545,
+      "y": 255,
+      "img1": null,
+      "img2": null
+    },
+    {
+      "id": "supply_25",
+      "name": "supply #25",
+      "description": "Crate tucked deeper inside the Dispatch Center, rewarding full building clears.",
+      "type": "supplyCrate",
+      "x": 535,
+      "y": 170,
+      "img1": null,
+      "img2": null
+    },
+    {
+      "id": "supply_26",
+      "name": "supply #26",
+      "description": "Dispatch Center crate positioned toward the far side of the building, good for late rotations.",
+      "type": "supplyCrate",
+      "x": 630,
+      "y": 265,
+      "img1": null,
+      "img2": null
+    },
+    {
+      "id": "supply_27",
+      "name": "supply #27",
+      "description": "High-value crate inside the Dispatch Center protected by a boss, risky but very rewarding if you clear the area.",
+      "type": "supplyCrate",
+      "x": 650,
+      "y": 210,
+      "img1": null,
+      "img2": null
+    },
+    {
+      "id": "supply_28",
+      "name": "supply #28",
+      "description": "Supply crate on the frozen river near Dispatch Center, exposed and easy to third-party.",
+      "type": "supplyCrate",
+      "x": 785,
+      "y": 270,
+      "img1": null,
+      "img2": null
+    },
+    {
+      "id": "supply_29",
+      "name": "supply #29",
+      "description": "Frozen river crate closer to Launch Silo, often hit by squads rotating between central and side lanes.",
+      "type": "supplyCrate",
+      "x": 595,
+      "y": 430,
+      "img1": null,
+      "img2": null
+    },
+    {
+      "id": "supply_30",
+      "name": "supply #30",
+      "description": "Crate located in a small room near the Warehouse, a good warm-up loot spot before pushing inside.",
+      "type": "supplyCrate",
+      "x": 670,
+      "y": 410,
+      "img1": null,
+      "img2": null
+    },
+    {
+      "id": "supply_31",
+      "name": "supply #31",
+      "description": "Supply crate inside a container outside the Warehouse, offering quick loot with limited cover.",
+      "type": "supplyCrate",
+      "x": 690,
+      "y": 455,
+      "img1": null,
+      "img2": null
+    },
+    {
+      "id": "supply_32",
+      "name": "supply #32",
+      "description": "Crate on the first floor of the Warehouse, part of a dense cluster of high-value loot.",
+      "type": "supplyCrate",
+      "x": 745,
+      "y": 440,
+      "img1": null,
+      "img2": null
+    },
+    {
+      "id": "supply_33",
+      "name": "supply #33",
+      "description": "Another first-floor Warehouse crate, ideal when sweeping the entire level with your squad.",
+      "type": "supplyCrate",
+      "x": 780,
+      "y": 500,
+      "img1": null,
+      "img2": null
+    },
+    {
+      "id": "supply_34",
+      "name": "supply #34",
+      "description": "First-floor Warehouse crate positioned near the edges, good for quick grab-and-go plays.",
+      "type": "supplyCrate",
+      "x": 750,
+      "y": 515,
+      "img1": null,
+      "img2": null
+    },
+    {
+      "id": "supply_35",
+      "name": "supply #35",
+      "description": "High-risk Warehouse crate on the first floor, guarded by a boss and perfect for stacked loot runs.",
+      "type": "supplyCrate",
+      "x": 745,
+      "y": 490,
+      "img1": null,
+      "img2": null
+    },
+    {
+      "id": "supply_36",
+      "name": "supply #36",
+      "description": "Ground-floor Warehouse crate, useful when fighting through the lower level first.",
+      "type": "supplyCrate",
+      "x": 745,
+      "y": 495,
+      "img1": null,
+      "img2": null
+    },
+    {
+      "id": "supply_37",
+      "name": "supply #37",
+      "description": "First-floor Warehouse crate positioned near the edges, good for quick grab-and-go plays.",
+      "type": "supplyCrate",
+      "x": 745,
+      "y": 530,
+      "img1": null,
+      "img2": null
+    },
+    {
+      "id": "supply_38",
+      "name": "supply #38",
+      "description": "Ground-floor crate in the C-shaped building near the Warehouse, a solid mid-route loot point.",
+      "type": "supplyCrate",
+      "x": 825,
+      "y": 565,
+      "img1": null,
+      "img2": null
+    },
+    {
+      "id": "supply_39",
+      "name": "supply #39",
+      "description": "First-floor crate in the C-shaped building near the Warehouse, rewarding vertical control of the area.",
+      "type": "supplyCrate",
+      "x": 875,
+      "y": 570,
+      "img1": null,
+      "img2": null
+    },
+    {
+      "id": "supply_40",
+      "name": "supply #40",
+      "description": "Crate on the walkway along the wall near the Warehouse, exposed but along a common rotation path.",
+      "type": "supplyCrate",
+      "x": 775,
+      "y": 680,
+      "img1": null,
+      "img2": null
+    },
+    {
+      "id": "supply_41",
+      "name": "supply #41",
+      "description": "Supply crate inside a military tent, offering quick loot with limited hard cover.",
+      "type": "supplyCrate",
+      "x": 745,
+      "y": 650,
+      "img1": null,
+      "img2": null
+    },
+    {
+      "id": "supply_42",
+      "name": "supply #42",
+      "description": "Crate inside Locked Door #A, accessible with a Black Password Letter and packed with guaranteed high-tier loot.",
+      "type": "supplyCrate",
+      "x": 650,
+      "y": 495,
+      "img1": null,
+      "img2": null
+    },
+    {
+      "id": "supply_43",
+      "name": "supply #43",
+      "description": "Second crate inside Locked Door #A, further boosting the value of this black-door vault.",
+      "type": "supplyCrate",
+      "x": 660,
+      "y": 500,
+      "img1": null,
+      "img2": null
+    },
+    {
+      "id": "supply_44",
+      "name": "supply #44",
+      "description": "Third crate inside Locked Door #A, turning this small room into a jackpot for prepared squads.",
+      "type": "supplyCrate",
+      "x": 670,
+      "y": 505,
+      "img1": null,
+      "img2": null
+    },
+    {
+      "id": "supply_45",
+      "name": "supply #45",
+      "description": "Ground-floor crate inside a building near the Factory, useful for topping up between fights.",
+      "type": "supplyCrate",
+      "x": 635,
+      "y": 730,
+      "img1": null,
+      "img2": null
+    },
+    {
+      "id": "supply_46",
+      "name": "supply #46",
+      "description": "First-floor crate in a building near the Factory, offering slightly safer loot above ground level.",
+      "type": "supplyCrate",
+      "x": 625,
+      "y": 740,
+      "img1": null,
+      "img2": null
+    },
+    {
+      "id": "supply_47",
+      "name": "supply #47",
+      "description": "Another first-floor crate in the nearby building, ideal when sweeping the entire structure.",
+      "type": "supplyCrate",
+      "x": 565,
+      "y": 765,
+      "img1": null,
+      "img2": null
+    },
+    {
+      "id": "supply_48",
+      "name": "supply #48",
+      "description": "Supply crate inside a Factory server room on the first floor, offering great loot in a tight, defensible space.",
+      "type": "supplyCrate",
+      "x": 585,
+      "y": 590,
+      "img1": null,
+      "img2": null
+    },
+    {
+      "id": "supply_49",
+      "name": "supply #49",
+      "description": "Crate on the Factory first floor, commonly picked during full building clears.",
+      "type": "supplyCrate",
+      "x": 555,
+      "y": 590,
+      "img1": null,
+      "img2": null
+    },
+    {
+      "id": "supply_50",
+      "name": "supply #50",
+      "description": "Crate inside a first-floor Factory room, rewarding methodical room-to-room clearing.",
+      "type": "supplyCrate",
+      "x": 505,
+      "y": 610,
+      "img1": null,
+      "img2": null
+    },
+    {
+      "id": "supply_51",
+      "name": "supply #51",
+      "description": "Ground-floor Factory crate, often looted during close-quarters fights inside the building.",
+      "type": "supplyCrate",
+      "x": 580,
+      "y": 660,
+      "img1": null,
+      "img2": null
+    },
+    {
+      "id": "supply_52",
+      "name": "supply #52",
+      "description": "First-floor Factory crate, good for squads holding the high ground.",
+      "type": "supplyCrate",
+      "x": 550,
+      "y": 680,
+      "img1": null,
+      "img2": null
+    },
+    {
+      "id": "supply_53",
+      "name": "supply #53",
+      "description": "Another first-floor Factory crate, positioned deeper inside for players who commit to the push.",
+      "type": "supplyCrate",
+      "x": 505,
+      "y": 705,
+      "img1": null,
+      "img2": null
+    },
+    {
+      "id": "supply_54",
+      "name": "supply #54",
+      "description": "Ground-floor Factory crate along common rotation paths, often looted mid-fight.",
+      "type": "supplyCrate",
+      "x": 475,
+      "y": 680,
+      "img1": null,
+      "img2": null
+    },
+    {
+      "id": "supply_55",
+      "name": "supply #55",
+      "description": "Supply crate inside a Factory server room on the first floor, combining tech loot with close-range combat potential.",
+      "type": "supplyCrate",
+      "x": 475,
+      "y": 705,
+      "img1": null,
+      "img2": null
+    },
+    {
+      "id": "supply_56",
+      "name": "supply #56",
+      "description": "Another first-floor server room crate in the Factory, ideal for high-value looting in a confined area.",
+      "type": "supplyCrate",
+      "x": 450,
+      "y": 680,
+      "img1": null,
+      "img2": null
+    },
+    {
+      "id": "supply_57",
+      "name": "supply #57",
+      "description": "Crate inside a room near the Gate, useful for quick re-supply before heading deeper into the map.",
+      "type": "supplyCrate",
+      "x": 405,
+      "y": 830,
+      "img1": null,
+      "img2": null
+    },
+    {
+      "id": "supply_58",
+      "name": "supply #58",
+      "description": "Another indoor crate close to the Gate, offering safe early-game loot with minimal exposure.",
+      "type": "supplyCrate",
+      "x": 350,
+      "y": 770,
+      "img1": null,
+      "img2": null
+    },
+
+    {
+      "id": "weapon_1",
+      "name": "Weapon #1",
+      "description": "Weapon crate outside the C-shaped Dormitory building, great for arming up early before pushing indoors.",
+      "type": "weaponCrate",
+      "x": 225,
+      "y": 450,
+      "img1": null,
+      "img2": null
+    },
+    {
+      "id": "weapon_2",
+      "name": "Weapon #2",
+      "description": "Weapon crate inside a military tent at Launch Silo, offering guns with moderate cover.",
+      "type": "weaponCrate",
+      "x": 415,
+      "y": 465,
+      "img1": null,
+      "img2": null
+    },
+    {
+      "id": "weapon_3",
+      "name": "Weapon #3",
+      "description": "Another weapon crate inside a Launch Silo military tent, ideal for gearing a second teammate.",
+      "type": "weaponCrate",
+      "x": 450,
+      "y": 450,
+      "img1": null,
+      "img2": null
+    },
+    {
+      "id": "weapon_4",
+      "name": "Weapon #4",
+      "description": "Weapon crate placed in the open Launch Silo area, rewarding quick grabs but punishing slow looters.",
+      "type": "weaponCrate",
+      "x": 400,
+      "y": 310,
+      "img1": null,
+      "img2": null
+    },
+    {
+      "id": "weapon_5",
+      "name": "Weapon #5",
+      "description": "Weapon crate inside a container in the Launch Silo open area, offering slightly better cover than ground crates.",
+      "type": "weaponCrate",
+      "x": 470,
+      "y": 315,
+      "img1": null,
+      "img2": null
+    },
+    {
+      "id": "weapon_6",
+      "name": "Weapon #6",
+      "description": "Weapon crate inside the Dispatch Center building, great for arming up before challenging nearby bosses.",
+      "type": "weaponCrate",
+      "x": 550,
+      "y": 160,
+      "img1": null,
+      "img2": null
+    },
+    {
+      "id": "weapon_7",
+      "name": "Weapon #7",
+      "description": "Weapon crate on the Warehouse first floor, guarded by a boss and ideal for high-power loadouts.",
+      "type": "weaponCrate",
+      "x": 740,
+      "y": 480,
+      "img1": null,
+      "img2": null
+    },
+    {
+      "id": "weapon_8",
+      "name": "Weapon #8",
+      "description": "Another boss-protected weapon crate on the Warehouse first floor, rewarding teams that clear the encounter.",
+      "type": "weaponCrate",
+      "x": 770,
+      "y": 490,
+      "img1": null,
+      "img2": null
+    },
+    {
+      "id": "weapon_9",
+      "name": "Weapon #9",
+      "description": "Weapon crate on the Factory first floor, boosting your firepower during indoor engagements.",
+      "type": "weaponCrate",
+      "x": 510,
+      "y": 640,
+      "img1": null,
+      "img2": null
+    },
+    {
+      "id": "weapon_10",
+      "name": "Weapon #10",
+      "description": "Weapon crate inside a military tent near the Gate, perfect for early-game loadouts before rotating in.",
+      "type": "weaponCrate",
+      "x": 360,
+      "y": 650,
+      "img1": null,
+      "img2": null
+    },
+    {
+      "id": "weapon_11",
+      "name": "Weapon #11",
+      "description": "Weapon crate inside a room near the Gate, offering safer weapon pickups for cautious starts.",
+      "type": "weaponCrate",
+      "x": 365,
+      "y": 780,
+      "img1": null,
+      "img2": null
+    },
+
+    {
+      "id": "file_1",
+      "name": "File Cabinet #1",
+      "description": "File cabinet inside the Dormitory building, useful for gathering documents and extra valuables.",
+      "type": "fileCabinet",
+      "x": 200,
+      "y": 535,
+      "img1": null,
+      "img2": null
+    },
+    {
+      "id": "file_2",
+      "name": "File Cabinet #2",
+      "description": "File cabinet inside the C-shaped Dormitory building, often looted alongside nearby supply crates.",
+      "type": "fileCabinet",
+      "x": 220,
+      "y": 380,
+      "img1": null,
+      "img2": null
+    },
+    {
+      "id": "file_3",
+      "name": "File Cabinet #3",
+      "description": "File cabinet inside a room at Launch Silo near the frozen river, offering extra sellable items.",
+      "type": "fileCabinet",
+      "x": 525,
+      "y": 380,
+      "img1": null,
+      "img2": null
+    },
+    {
+      "id": "file_4",
+      "name": "File Cabinet #4",
+      "description": "File cabinet in a side room of the Dispatch Center building, great for quick document grabs mid-run.",
+      "type": "fileCabinet",
+      "x": 570,
+      "y": 240,
+      "img1": null,
+      "img2": null
+    },
+    {
+      "id": "file_5",
+      "name": "File Cabinet #5",
+      "description": "File cabinet deeper inside the Dispatch Center, often paired with nearby supply and weapon crates.",
+      "type": "fileCabinet",
+      "x": 585,
+      "y": 180,
+      "img1": null,
+      "img2": null
+    },
+    {
+      "id": "file_6",
+      "name": "File Cabinet #6",
+      "description": "Another Dispatch Center file cabinet, adding extra value to full-building clears.",
+      "type": "fileCabinet",
+      "x": 610,
+      "y": 270,
+      "img1": null,
+      "img2": null
+    },
+    {
+      "id": "file_7",
+      "name": "File Cabinet #7",
+      "description": "File cabinet inside the same building that houses the password door near the Warehouse, making this room even more rewarding.",
+      "type": "fileCabinet",
+      "x": 680,
+      "y": 530,
+      "img1": null,
+      "img2": null
+    },
+    {
+      "id": "file_8",
+      "name": "File Cabinet #8",
+      "description": "File cabinet in a Factory server room on the first floor, combining cash loot with technical gear.",
+      "type": "fileCabinet",
+      "x": 590,
+      "y": 630,
+      "img1": null,
+      "img2": null
+    },
+    {
+      "id": "file_9",
+      "name": "File Cabinet #9",
+      "description": "File cabinet inside a room near the Factory, good for quick side-looting during rotations.",
+      "type": "fileCabinet",
+      "x": 560,
+      "y": 770,
+      "img1": null,
+      "img2": null
+    },
+    {
+      "id": "file_10",
+      "name": "File Cabinet #10",
+      "description": "File cabinet in a room near the Gate, offering extra income for low-risk early runs.",
+      "type": "fileCabinet",
+      "x": 365,
+      "y": 780,
+      "img1": null,
+      "img2": null
+    },
+    {
+      "id": "file_11",
+      "name": "File Cabinet #11",
+      "description": "File cabinet inside a room at the Gate itself, perfect for quick hits before heading into the base.",
+      "type": "fileCabinet",
+      "x": 335,
+      "y": 700,
+      "img1": null,
+      "img2": null
+    },
+    {
+      "id": "password_1",
+      "name": "Black Password Door #A",
+      "description": "Locked room inside the Radiation Zone that requires a Black Password Letter to open, rewarding you with guaranteed high-tier loot once unlocked. ℹ️ Only one black door, either #A or #B, will be active per match.",
+      "type": "passwordDoor",
+      "x": 670,
+      "y": 525,
+      "img1": "AreaViews/PasswordDoors/3_password_door_outside.jpg",
+      "img2": "AreaViews/PasswordDoors/3_password_door.jpg",
+      "highlights": [
+        {
+          "text": " Black Password Letter ",
+          "fontSize": 14,
+          "fontWeight": "bold",
+          "color": "#000000",
+          "backgroundColor": "#BABBBD"
+        },
+        {
+          "text": "high-tier loot",
+          "fontSize": 14,
+          "fontWeight": "bold",
+          "color": "#F55995"
+        }
+      ]
+    },
+    {
+      "id": "password_2",
+      "name": "Black Password Door #B",
+      "description": "Hidden inside the Radiation Zone, this vault also requires a Black Password Letter and offers guaranteed high-tier loot once breached. ℹ️ Only one black door, either #A or #B, will be active per match.",
+      "type": "passwordDoor",
+      "x": 340,
+      "y": 260,
+      "img1": "AreaViews/PasswordDoors/4_password_door_outside.jpg",
+      "img2": "AreaViews/PasswordDoors/4_password_door.jpg",
+      "highlights": [
+        {
+          "text": " Black Password Letter ",
+          "fontSize": 14,
+          "fontWeight": "bold",
+          "color": "#000000",
+          "backgroundColor": "#BABBBD"
+        },
+        {
+          "text": "high-tier loot",
+          "fontSize": 14,
+          "fontWeight": "bold",
+          "color": "#F55995"
+        }
+      ]
+    },
+
+    {
+      "id": "laptop_1",
+      "name": "Laptop #1",
+      "description": "Located within Radiation at Factory, Only 1 laptop is available within the radiation randomly per match. Laptop may or maynot available here.",
+      "type": "laptop",
+      "x": 470,
+      "y": 700,
+      "img1": null,
+      "img2": null
+    },
+    {
+      "id": "laptop_2",
+      "name": "Laptop #2",
+      "description": "Located within Radiation at Dispatch Center, Only 1 laptop is available within the radiation randomly per match. Laptop may or maynot available here.",
+      "type": "laptop",
+      "x": 620,
+      "y": 210,
+      "img1": null,
+      "img2": null
+    },
+
+    {
+      "id": "boss_1",
+      "name": "Boss #1",
+      "description": "Infected boss with pistol - Located at the Dispatch Center, in a downside room.",
+      "type": "boss",
+      "x": 635,
+      "y": 200,
+      "img1": null,
+      "img2": null
+    }
+  ]
+}
